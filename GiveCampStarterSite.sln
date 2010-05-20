@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiveCampWeb", "GiveCampWeb\GiveCampWeb.csproj", "{08F2AAA7-939E-441E-AE15-6BCB9A79AAD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A618468-9352-4283-BC2D-AB10B00C0E08}"
+	ProjectSection(SolutionItems) = preProject
+		GiveCampStarterSite.vsmdi = GiveCampStarterSite.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{AE50FCA5-92AB-4199-9B79-1AAA3F19CFD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V1", "V1", "{A727FF53-2B95-4740-A764-E8F5C787DB30}"
+	ProjectSection(SolutionItems) = preProject
+		GiveCampV1.sql = GiveCampV1.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V2", "V2", "{A54DE9D0-F223-4DBC-B085-BF1A591402C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Upgrade", "Upgrade", "{3488ACD7-ABCA-4724-8510-9B80C0C093D8}"
+	ProjectSection(SolutionItems) = preProject
+		UpgradeDb.sql = UpgradeDb.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs10.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GiveCampWeb\\GiveCampWeb.csproj
+		SccProjectName1 = GiveCampWeb
+		SccLocalPath1 = GiveCampWeb
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08F2AAA7-939E-441E-AE15-6BCB9A79AAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F2AAA7-939E-441E-AE15-6BCB9A79AAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F2AAA7-939E-441E-AE15-6BCB9A79AAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F2AAA7-939E-441E-AE15-6BCB9A79AAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE50FCA5-92AB-4199-9B79-1AAA3F19CFD9} = {7A618468-9352-4283-BC2D-AB10B00C0E08}
+		{A727FF53-2B95-4740-A764-E8F5C787DB30} = {AE50FCA5-92AB-4199-9B79-1AAA3F19CFD9}
+		{A54DE9D0-F223-4DBC-B085-BF1A591402C7} = {AE50FCA5-92AB-4199-9B79-1AAA3F19CFD9}
+		{3488ACD7-ABCA-4724-8510-9B80C0C093D8} = {A54DE9D0-F223-4DBC-B085-BF1A591402C7}
+	EndGlobalSection
+EndGlobal

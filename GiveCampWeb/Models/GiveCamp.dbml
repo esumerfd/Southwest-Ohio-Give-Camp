@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="GIVECAMP" Class="GiveCampDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\GIVECAMP.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GIVECAMPConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VolunteerTechnologies" Member="VolunteerTechnologies">
+    <Type Name="VolunteerTechnology">
+      <Column Name="VolunteerID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TechnologyID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Technology_VolunteerTechnology" Member="Technology" ThisKey="TechnologyID" OtherKey="TechnologyID" Type="Technology" IsForeignKey="true" />
+      <Association Name="Volunteer_VolunteerTechnology" Member="Volunteer" ThisKey="VolunteerID" OtherKey="VolunteerID" Type="Volunteer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CharityRequirementSupportSkills" Member="CharityRequirementSupportSkills">
+    <Type Name="CharityRequirementSupportSkill">
+      <Column Name="CharityRequirementId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TechnologyId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Technology_CharityRequirementSupportSkill" Member="Technology" ThisKey="TechnologyId" OtherKey="TechnologyID" Type="Technology" IsForeignKey="true" />
+      <Association Name="CharityRequirement_CharityRequirementSupportSkill" Member="CharityRequirement" ThisKey="CharityRequirementId" OtherKey="CharityRequirementId" Type="CharityRequirement" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CharityRequirementTechnologiesUsed" Member="CharityRequirementTechnologiesUseds">
+    <Type Name="CharityRequirementTechnologiesUsed">
+      <Column Name="CharityRequirementId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TechnologyId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Technology_CharityRequirementTechnologiesUsed" Member="Technology" ThisKey="TechnologyId" OtherKey="TechnologyID" Type="Technology" IsForeignKey="true" />
+      <Association Name="CharityRequirement_CharityRequirementTechnologiesUsed" Member="CharityRequirement" ThisKey="CharityRequirementId" OtherKey="CharityRequirementId" Type="CharityRequirement" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExperienceLevels" Member="ExperienceLevels">
+    <Type Name="ExperienceLevel">
+      <Column Name="ExperienceLevelID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ExperienceLevel_Volunteer" Member="Volunteers" ThisKey="ExperienceLevelID" OtherKey="ExperienceLevelID" Type="Volunteer" />
+    </Type>
+  </Table>
+  <Table Name="dbo.JobRoles" Member="JobRoles">
+    <Type Name="JobRole">
+      <Column Name="JobRoleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="JobRole_VolunteerJobRole" Member="VolunteerJobRoles" ThisKey="JobRoleID" OtherKey="JobRoleID" Type="VolunteerJobRole" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Technologies" Member="Technologies">
+    <Type Name="Technology">
+      <Column Name="TechnologyID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Technology_VolunteerTechnology" Member="VolunteerTechnologies" ThisKey="TechnologyID" OtherKey="TechnologyID" Type="VolunteerTechnology" />
+      <Association Name="Technology_CharityRequirementSupportSkill" Member="CharityRequirementSupportSkills" ThisKey="TechnologyID" OtherKey="TechnologyId" Type="CharityRequirementSupportSkill" />
+      <Association Name="Technology_CharityRequirementTechnologiesUsed" Member="CharityRequirementTechnologiesUseds" ThisKey="TechnologyID" OtherKey="TechnologyId" Type="CharityRequirementTechnologiesUsed" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VolunteerJobRoles" Member="VolunteerJobRoles">
+    <Type Name="VolunteerJobRole">
+      <Column Name="VolunteerID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="JobRoleID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="JobRole_VolunteerJobRole" Member="JobRole" ThisKey="JobRoleID" OtherKey="JobRoleID" Type="JobRole" IsForeignKey="true" />
+      <Association Name="Volunteer_VolunteerJobRole" Member="Volunteer" ThisKey="VolunteerID" OtherKey="VolunteerID" Type="Volunteer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Volunteers" Member="Volunteers">
+    <Type Name="Volunteer">
+      <Column Name="VolunteerID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="TeamName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Student" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="JobDescription" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="HasLaptop" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HasExtraLaptop" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="GoodGuiDesigner" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ExperienceLevelID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="YearsOfExperience" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="DietaryNeeds" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TwitterHandle" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Bio" Type="System.String" DbType="VarChar(4000)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(4000)" CanBeNull="true" />
+      <Association Name="Volunteer_VolunteerTechnology" Member="VolunteerTechnologies" ThisKey="VolunteerID" OtherKey="VolunteerID" Type="VolunteerTechnology" />
+      <Association Name="Volunteer_VolunteerJobRole" Member="VolunteerJobRoles" ThisKey="VolunteerID" OtherKey="VolunteerID" Type="VolunteerJobRole" />
+      <Association Name="ExperienceLevel_Volunteer" Member="ExperienceLevel" ThisKey="ExperienceLevelID" OtherKey="ExperienceLevelID" Type="ExperienceLevel" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CharityRequirements" Member="CharityRequirements">
+    <Type Name="CharityRequirement">
+      <Column Name="CharityRequirementId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CharityName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="BackgroundInformation" Type="System.String" DbType="VarChar(4000) NOT NULL" CanBeNull="false" />
+      <Column Name="WorkRequested" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="OtherInfrastructure" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="OtherSupportSkills" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CharityRequirement_CharityRequirementSupportSkill" Member="CharityRequirementSupportSkills" ThisKey="CharityRequirementId" OtherKey="CharityRequirementId" Type="CharityRequirementSupportSkill" />
+      <Association Name="CharityRequirement_CharityRequirementTechnologiesUsed" Member="CharityRequirementTechnologiesUseds" ThisKey="CharityRequirementId" OtherKey="CharityRequirementId" Type="CharityRequirementTechnologiesUsed" />
+    </Type>
+  </Table>
+</Database>
