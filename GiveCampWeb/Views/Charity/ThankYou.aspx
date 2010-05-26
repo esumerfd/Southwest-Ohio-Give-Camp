@@ -25,9 +25,8 @@ For Charities
 				<h2>Charity Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><a href="http://www.lansinggivecamp.org/" target="_blank">Lansing GiveCamp</a></li>
-					<li><a href="http://www.michigangivecamp.org/" target="_blank">Michigan GiveCamp</a></li>
-					<li><a href="http://www.redbull.com" target="_blank">Red Bull</a></li>
+					<li><%=Html.ActionLink("Submit your proposal On-Line","SignUp") %></li>
+                     <li><%=Html.ActionLink("Charities FAQ", "FAQs", "Home",new {id="Charities"})%></li>
 				</ul>
 			</li>
 		</ul>

@@ -25,6 +25,10 @@ namespace GiveCampWeb.Controllers
             return View("Sponsor");
         }
 
+        public ActionResult Directions()
+        {
+            return View("Directions");
+        }
         public ActionResult FAQs(string id)
         {
             // just FAQs with no section specified

@@ -5,18 +5,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
-    <link rel="Stylesheet" type="text/css" href="/Content/default.css" />
-    <script src="/Content/Scripts/jquery-1.3.2.min.js" type="text/javascript" language="javascript"></script>
-    <script src="/Content/Scripts/jquery-1.3.2-vsdoc.js" type="text/javascript" language="javascript"></script>
+    <link rel="Stylesheet" type="text/css" href="../../Content/default.css" />
+    <script src="../../Content/Scripts/jquery-1.3.2.min.js" type="text/javascript" language="javascript"></script>
+    <script src="../../Content/Scripts/jquery-1.3.2-vsdoc2.js" type="text/javascript" language="javascript"></script>
     <asp:ContentPlaceHolder ID="HeadScriptRegion" runat="server">
     
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <form id="form1" runat="server">
 <!-- start header -->
 <div id="header">
 	<div id="logo">
-		<h1>Columbus GiveCamp</h1>
+		<h1>Southwest Ohio GiveCamp</h1>
 		<p>geeks giving back</p>
 	</div>
 	<!--
@@ -41,6 +42,7 @@
 		<li id="navFAQ"><a href="<%=Url.Action("FAQs","Home",new {id=""}) %>">FAQ</a></li>
 		<li id="navAbout"><a href="<%=Url.Action("About","Home")%>">About</a></li>
 		<li id="navContact"><a href="<%=Url.Action("Contact","Home") %>">Contact</a></li>
+	    <asp:LoginStatus ID="LoginStatus1" runat="server" />
 	</ul>
 </div>
 <!-- end menu -->
@@ -64,7 +66,8 @@
 </div>
 <!-- end page -->
 <div id="footer">
-	<p>&copy;2009 All Rights Reserved. &nbsp;&bull;&nbsp; Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a> &nbsp;&bull;&nbsp; Icons by <a href="http://www.famfamfam.com/">FAMFAMFAM</a>.</p>
+	<p>&copy;2010 All Rights Reserved.
 </div>
+    </form>
 </body>
 </html>

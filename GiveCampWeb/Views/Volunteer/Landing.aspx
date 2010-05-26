@@ -23,7 +23,7 @@ For Volunteers
 				 <%=Html.ActionLink("FAQ", "FAQs", "Home")%>
 				for more information.
 				</p>
-				<p><%=Html.ActionLink("Sign up to be a volunteer","SignUp") %></p>
+                <p><%=Html.ActionLink("Sign up to be a volunteer","SignUp") %></p>
 			</div>
 			<p class="meta"></p>
 		</div>
@@ -34,9 +34,8 @@ For Volunteers
 				<h2>Volunteer Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><a href="http://www.lansinggivecamp.org/" target="_blank">Lansing GiveCamp</a></li>
-					<li><a href="http://www.michigangivecamp.org/" target="_blank">Michigan GiveCamp</a></li>
-					<li><a href="http://www.redbull.com" target="_blank">Red Bull</a></li>
+					<li><%=Html.ActionLink("Volunteer On-Line","SignUp") %></li>
+                     <li><%=Html.ActionLink("Volunteer FAQ", "FAQs", "Home", "FAQs", new {id="Developers"})%></li>
 				</ul>
 			</li>
 		</ul>

@@ -118,87 +118,61 @@ namespace GiveCampWeb.Controllers
         {
             if (String.IsNullOrEmpty(volunteer.FirstName))
                 ModelState.AddModelError("FirstName", "First Name is Required");
-
-            if (!String.IsNullOrEmpty(volunteer.FirstName))
+            else
             {
                 if (volunteer.FirstName.Length > 30)
                     ModelState.AddModelError("FirstName", "First name cannot exceed 30 characters");
             }
-
             if (String.IsNullOrEmpty(volunteer.LastName))
                 ModelState.AddModelError("LastName", "Last Name is Required");
-            
-            if (!String.IsNullOrEmpty(volunteer.LastName))
+            else
             {
                 if (volunteer.LastName.Length > 30)
                     ModelState.AddModelError("LastName", "Last name cannot exceed 30 characters");
             }
-
             if (String.IsNullOrEmpty(volunteer.EmailAddress))
                 ModelState.AddModelError("EmailAddress", "Email Address is Required");
-
-            if (!String.IsNullOrEmpty(volunteer.TeamName))
-            {
-                if (volunteer.TeamName.Length > 30)
-                    ModelState.AddModelError("TeamName", "Team Name cannot exceed 30 characters");
-            }
-
-            if (!String.IsNullOrEmpty(volunteer.EmailAddress))
+            else
             {
                 if (volunteer.EmailAddress.Length > 255)
                     ModelState.AddModelError("EmailAddress", "Email Address cannot exceed 250 characters");
             }
 
+            if (!string.IsNullOrEmpty(volunteer.TeamName) && volunteer.TeamName.Length > 30)
+                ModelState.AddModelError("TeamName", "Team Name cannot exceed 30 characters");
+
+
             if (String.IsNullOrEmpty(volunteer.PhoneNumber))
                 ModelState.AddModelError("PhoneNumber", "Phone Number is Required");
-
-            if (!String.IsNullOrEmpty(volunteer.PhoneNumber))
+            else
             {
                 if (volunteer.PhoneNumber.Length > 50)
                     ModelState.AddModelError("PhoneNumber", "Phone Number cannot exceed 50 characters");
             }
-
-            if (jobRoles==null || jobRoles.Count == 0)
+            if (jobRoles== null || jobRoles.Count == 0)
                 ModelState.AddModelError("Roles", "You have to enter at least one role");
 
             if (String.IsNullOrEmpty(volunteer.JobDescription))
                 ModelState.AddModelError("JobDescription", "Day job is Required");
-
-            if (!String.IsNullOrEmpty(volunteer.JobDescription))
+            else
             {
                 if (volunteer.JobDescription.Length > 100)
                     ModelState.AddModelError("JobDescription", "Day job cannot exceed 100 characters");
             }
-
-           
-            if (technologies==null || technologies.Count == 0)
+            if (technologies == null || technologies.Count == 0)
                 ModelState.AddModelError("Technologies", "You have to enter at least one technology");
-
             if (volunteer.YearsOfExperience == null)
                 ModelState.AddModelError("YearsOfExperience", "Years of Experience is required");
-            if (!String.IsNullOrEmpty(volunteer.DietaryNeeds))
-            {
-                if (volunteer.DietaryNeeds.Length > 50)
-                    ModelState.AddModelError("DietaryNeeds", "Dietary needs cannot exceed 50 characters");
-            }
+            if (volunteer.DietaryNeeds != null && volunteer.DietaryNeeds.Length > 50)
+                ModelState.AddModelError("DietaryNeeds", "Dietary needs cannot exceed 50 characters");
+            if (volunteer.TwitterHandle!= null &&  volunteer.TwitterHandle.Length > 50)
+                ModelState.AddModelError("TwitterHandle", "Twitter handle cannot exceed 50 characters");
 
-            if (!String.IsNullOrEmpty(volunteer.TwitterHandle))
-            {
-                if (volunteer.TwitterHandle.Length > 50)
-                    ModelState.AddModelError("TwitterHandle", "Twitter handle cannot exceed 50 characters");
-            }
+            if (volunteer.Bio != null && volunteer.Bio.Length > 4000)
+                ModelState.AddModelError("Bio", "Bio cannot exceed 4000 characters");
 
-            if (!String.IsNullOrEmpty(volunteer.Bio))
-            {
-                if (volunteer.Bio.Length > 4000)
-                    ModelState.AddModelError("Bio", "Bio cannot exceed 4000 characters");
-            }
-
-            if (!String.IsNullOrEmpty(volunteer.Comments))
-            {
-                if (volunteer.Comments.Length > 4000)
-                    ModelState.AddModelError("Comments", "Comments cannot exceed 4000 characters");
-            }
+            if (volunteer.Comments!= null  && volunteer.Comments.Length > 4000)
+                ModelState.AddModelError("Comments", "Comments cannot exceed 4000 characters");
             
             
         }

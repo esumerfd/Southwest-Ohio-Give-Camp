@@ -41,9 +41,9 @@
             </div>
 
             <div class="faq">
-                <a class="question">When is the deadline for submitting proposals?</a>
+                <a class="question">When is the last date to submit a proposal?</a>
                 <div class="answer">
-                    <p>The deadline for submitting proposals is June 18th.</p>
+                    <p>The initial charity submissions are due to the website on July 16th.  The detailed charity submissions are due August 20th</p>
                 </div>
             </div>
 
@@ -58,7 +58,8 @@
                 <a class="question">What do you need from me?</a>
                 <div class="answer">
 	                <p>Start off with completing the Charity Proposal form on this site <a href="<%=Url.Action("Index","Charity") %>">located here</a>. </p>
-					<p>If you are selected, a representative of your charity must attend the kick-off meeting on Friday afternoon and at least one of your members must attend the demo on Sunday afternoon. The person who attends the demo should be your technical expert.</p>
+					<p>The initial submissions will be narrowed down to a shorter list.  If your submission makes the first cut, a business analyst will be assigned to assist you in completing a more detailed requirements document.  The more detailed documents will go through a final selection process.</p>
+                    <p>If you are selected, a representative of your charity must attend the kick-off meeting on Friday afternoon, be present or available to answer questions for the duration of the event and at least one of your members must attend the demo on Sunday afternoon.</p>
 			    </div>
             </div>
 
@@ -71,18 +72,16 @@
             </div>
 
             <div class="faq">
-                <a class="question">How many charities can you help?</a>
+                <a class="question">How many charities will be selected?</a>
                 <div class="answer">
-                	<p>The number of developer volunteers will allow us to select one charity for each 4-5 developer volunteers</p>
+                	<p>The number of developer volunteers will allow us to select one charity for each 4-5 developer volunteers.  We will select the number of charities to be helped based on the number of developer volunteers we receive. At first glance we estimate being able to help around 10 charities.  </p>
                 </div>
             </div>
 
             <div class="faq">
                 <a class="question">How will the charities be selected?</a>
                 <div class="answer">
-                    We will select the number of charities to be helped based on 
-                    the number of developer volunteers we receive.  At first glance we
-                    estimate being able to help 4-5 charities.                	
+                    <p>The committee will determine the selection of the non-profit organizations that participate in GiveCamp. Generally, we try to select non-profits where we can achieve the greatest impact by helping them out. We also look at the request that’s being made – we try to focus on getting very clear requirements on what the non-profit is looking for and is something that can be achieved over a marathon-coding weekend by a team of approximately 5 developers.</p>
                 </div>
             </div>
 
@@ -105,25 +104,11 @@
 									<p>This is the Charity Proposal form that you will be asked to complete on this site <%=Html.ActionLink("Located Here","SignUp","Charity") %></p>
                 </div>
             </div>
-
-            <div class="faq">
-                <a class="question">What happens after I am selected?</a>
-                <div class="answer">
-                	<p>If you are one of the charities that are selected, your business analyst will contact you to finalize your design requirements.</p>
-                </div>
-            </div>
-
+            
             <div class="faq">
                 <a class="question">My charity did not get selected. What now?</a>
                 <div class="answer">
                 	<p>Please stop in and give your support to the developers that are working hard. There are other similar events being planned that you may want to submit your Charity Proposal informatino to. See <a href="http://www.givecamp.org">Givecamp.org</a> for information about other such events.</p>
-                </div>
-            </div>
-
-            <div class="faq">
-                <a class="question">What time should I arrive?</a>
-                <div class="answer">
-                	<p>Please try to arrive by 4:00 p.m. on Friday so that you can register before 4:30 p.m.</p>
                 </div>
             </div>
 
@@ -137,14 +122,14 @@
             <div class="faq">
                 <a class="question">Will I have help completing the Charity Proposal?</a>
                 <div class="answer">
-                	<p>Initially no, the proposal gives us information that will help us select charities. If your charity is selected then there will be a business analyst assigned to each charity. But, please try to complete as much of the Charity Proposal as you can.</p>
+                	<p>You must complete the website application on your own. If your charity is selected then there will be a business analyst assigned to each charity. But, please try to complete as much of the Charity Proposal as you can.</p>
                 </div>
             </div>
 
-            <div class="faq">
-                <a class="question">Will I be able to modify my application?</a>
+           <div class="faq">
+                <a class="question">Will I be able to modify my application? </a>
                 <div class="answer">
-                	<p>Yes! Each charity will be provided with all of the software (and books) required to maintain, update and extend their application.</p>
+                    <p>Yes! Each charity will be provided with all the information required to maintain, update and extend their application</p>
                 </div>
             </div>
 
@@ -164,11 +149,17 @@
 									
                 </div>
             </div>
-
-            <div class="faq">
+             <div class="faq">
                 <a class="question">When will I know if my proposal has been selected?</a>
                 <div class="answer">
-                	<p>The selected charities will be published to the GiveCamp website on June 25th. Selected charities will also be emailed.</p>
+                	<p>The selected charities will be published to the GiveCamp website on July 10th. Selected charities will also be emailed.</p>
+                </div>
+            </div>
+
+             <div class="faq">
+                <a class="question">When is the last date to submit a proposal?</a>
+                <div class="answer">
+                	<p>The initial charity submissions are due to the website on July 16th.  The detailed charity submissions are due August 20th.</p>
                 </div>
             </div>
         </div>

@@ -16,9 +16,8 @@
 				<h2>Charity Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><a href="http://www.lansinggivecamp.org/" target="_blank">Lansing GiveCamp</a></li>
-					<li><a href="http://www.michigangivecamp.org/" target="_blank">Michigan GiveCamp</a></li>
-					<li><a href="http://www.redbull.com" target="_blank">Red Bull</a></li>
+					<li><%=Html.ActionLink("Submit your proposal On-Line","SignUp") %></li>
+                     <li><%=Html.ActionLink("Charities FAQ", "FAQs", "Home",new {id="Charities"})%></li>
 				</ul>
 			</li>
 		</ul>
@@ -28,7 +27,7 @@
 	<h1 class="pagetitle">Charity Proposal</h1>
 	<div class="post">
 		<h2 class="title">Charity Proposal Form</h2>
-		
+		<!--<p>We are not yet accepting Proposals.  Thank You.</p>-->
 		<p>Please fill out this form to give us an idea of the work you are looking
 		to have accomplished.  Please keep in mind this work should be scoped so that
 		it can be completed over the span of a weekend.</p>
@@ -41,6 +40,34 @@
            { %>
             <fieldset>
                 <legend>Contact Information</legend>
+                 <div class="rowwrap">
+                    <div class="label"><label for="ContactName">*Contact Name:</label></div>
+                    <div class="input">
+                        <%= Html.TextBox("ContactName")%>
+                        <%= Html.ValidationMessage("ContactName")%>
+                    </div>
+                </div>
+                 <div class="rowwrap">
+                    <div class="label"><label for="PhoneNumber">*Phone Number(s):</label></div>
+                    <div class="input">
+                        <%= Html.TextBox("PhoneNumber")%>
+                        <%= Html.ValidationMessage("PhoneNumber")%>
+                    </div>
+                </div>
+                 <div class="rowwrap">
+                    <div class="label"><label for="Email">*Email:</label></div>
+                    <div class="input">
+                        <%= Html.TextBox("Email")%>
+                        <%= Html.ValidationMessage("Email")%>
+                    </div>
+                </div>
+                <div class="rowwrap">
+                    <div class="label"><label for="CallInstruction">Best Time to Contact:</label></div>
+                    <div class="input">
+                        <%= Html.TextBox("CallInstruction")%>
+                        <%= Html.ValidationMessage("CallInstruction")%>
+                    </div>
+                </div>
                 <div class="rowwrap">
                     <div class="label"><label for="CharityName">*Charity Name:</label></div>
                     <div class="input">
@@ -49,21 +76,14 @@
                     </div>
                 </div>
                 <div class="rowwrap">
-                    <div class="label"><label for="Email">*Email Address:</label></div>
+                    <div class="label"><label for="CurrentWebURL">Charity Website (if exists):</label></div>
                     <div class="input">
-                        <%= Html.TextBox("Email") %>
-                        <%= Html.ValidationMessage("Email") %>
+                        <%= Html.TextArea("CurrentWebURL",new {rows="1", cols="30"} )%>
+                        <%= Html.ValidationMessage("CurrentWebURL")%>
                     </div>
                 </div>
                 <div class="rowwrap">
-                    <div class="label"><label for="PhoneNumber">*Phone Number:</label></div>
-                    <div class="input">
-                        <%= Html.TextBox("PhoneNumber") %>
-                        <%= Html.ValidationMessage("PhoneNumber") %>
-                    </div>
-                </div>
-                <div class="rowwrap">
-                    <div class="label"><label for="BackgroundInformation">*Background Information [*** Please include email && phone number ***]:</label></div>
+                    <div class="label"><label for="BackgroundInformation">*Tell us about your charity.  What do you do and who do you help?</label></div>
                     <div class="input">
                         <%= Html.TextArea("BackgroundInformation",new {rows="5", cols="30"} )%>
                         <%= Html.ValidationMessage("BackgroundInformation")%>
@@ -74,15 +94,22 @@
             <fieldset>
                 <legend>Proposal Information</legend>
                 <div class="rowwrap">
-                    <div class="label"><label for="WorkRequested">*Work Requested:</label></div>
+                    <div class="label"><label for="WorkRequested">*Give us a detailed, but basic description of the project you would like to have accomplished by GiveCamp. Remember the project should be able to be completed during one weekend. If you aren't sure if the project can be completed in one weekend, submit what you have and we will make the determination.</label></div>
                     <div class="input">
-                        <%= Html.TextArea("WorkRequested",new {rows="5", cols="30"} )%>
+                        <%= Html.TextArea("WorkRequested",new {rows="13", cols="30"} )%>
                         <%= Html.ValidationMessage("WorkRequested")%>
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
+           <%-- <fieldset>
                 <legend>Existing Technologies [if work is an enhancement to existing application]</legend>
+                <div class="rowwrap">
+                    <div class="label"><label for="CurrentWebURL">Existing Web Address:</label></div>
+                    <div class="input">
+                        <%= Html.TextArea("CurrentWebURL",new {rows="1", cols="30"} )%>
+                        <%= Html.ValidationMessage("CurrentWebURL")%>
+                    </div>
+                </div>
                 <div class="rowwrap">
                     <div class="label">Select from technologies below:</div>
                     <div class="input">
@@ -137,7 +164,7 @@
                         <%= Html.ValidationMessage("OtherSupportSkills")%>
                     </div>
                 </div>
-            </fieldset>
+            </fieldset>--%>
                 
 
             <div class="submit">

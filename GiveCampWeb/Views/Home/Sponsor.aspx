@@ -16,11 +16,11 @@ Sponsor the Columbus Give Camp
 			
 			<div class="entry">
 				<p>
-				Columbus Give Camp is a volunteer event.  We are looking for donations in the form of 
+				Southwest Ohio Give Camp is a volunteer event.  We are looking for donations in the form of 
 				cash, product licenses, and food!<br /><br />
 				If you would like to sponsor our event, please email details to:<br /><br />
 				
-				<a href="mailto:info@columbusgivecamp.org">info@columbusgivecamp.org</a></p>
+				<a href="mailto:info@southwestohiogivecamp.org">info@southwestohiogivecamp.org</a></p>
 			</div>
 			<p class="meta"></p>
 		</div>
@@ -32,8 +32,8 @@ Sponsor the Columbus Give Camp
 				
 				    <table>
 				    <tr>
-				    <td><a href="http://wwww.microsoft.com" target="_blank"><img src="../../Content/Images/SponsorLogos/microsoft.jpg" alt="Microsoft" border="0" /></a></td>
-				    <td><a href="http://iccohio.com" target="_blank""><img src="../../Content/Images/SponsorLogos/ICCLogo.png" alt="ICC" border="0" /></a></td>    
+                    <%--<td><a href="http://wwww.microsoft.com" target="_blank"><img src="../../Content/Images/SponsorLogos/microsoft.jpg" alt="Microsoft" border="0" /></a></td>--%>
+				        <td><a href="http://www.DiscountASP.Net" target="_blank"><img src="../../Content/Images/SponsorLogos/dasplogo_tagline.jpg" alt="DiscountASP.Net" border="0" height="50%" width="50%" /></a></td>
 				    </tr>
 				    </table>
 				
@@ -50,8 +50,6 @@ Sponsor the Columbus Give Camp
 				<h2>Sponsor Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><a href="http://www.lansinggivecamp.org/" target="_blank">Lansing GiveCamp</a></li>
-					<li><a href="http://www.michigangivecamp.org/" target="_blank">Michigan GiveCamp</a></li>
 				</ul>
 			</li>
 		</ul>

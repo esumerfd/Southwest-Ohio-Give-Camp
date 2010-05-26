@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Columbus GiveCamp" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-Columbus Give Camp
+Southwest Ohio Give Camp
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="HeadScriptRegion" runat="server">
     <script language="javascript" type="text/javascript">
@@ -10,14 +10,12 @@ Columbus Give Camp
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-		<h1 class="pagetitle">Columbus GiveCamp 2010</h1>
+		<h1 class="pagetitle">Southwest Ohio GiveCamp 2010</h1>
 		<div class="post">
-			<h2 class="title">Dates Announced</h2>
+			<h2 class="title">Dates Announced!</h2>
 			<div class="entry">
-				<p>This year, GiveCamp will take place July 9, 10,11</p>
-				<p>The event is being held at the ICC Facility at
-				    <a href="http://www.bing.com/maps/default.aspx?encType=1&where1=2500+Corporate+Exchange+Dr%2c+Columbus%2c+OH+43231-7665&FORM=MIRE&qpvt=2500+Corporate+Exchange+Drive%2c+Columbus+Ohio" target="_blank">2500 Corporate Exchange Dr, Columbus, OH 43231.</a>
-				</p>
+				<p>This year, Southwest Ohio GiveCamp will take place 22 - 24 of October </p>
+				<p>The event is being held at the <%=Html.ActionLink("Miami University Voice of America Learning Center", "Directions")%></p>
 			</div>
 			<p class="meta"></p>
 		</div>
@@ -28,12 +26,11 @@ Columbus Give Camp
 				<p>We are currently accepting applications for charities to 
 				submit work proposals through our website.  Please see the
 				Charity section of this web site to submit your proposal.
-				<em>Deadline for proposals is June 18th</em>
 				</p>
 				<p>
 				If you are a developer/designer/project manager looking to make
 				a difference and use your skills to assist others, this is the 
-				place to be July 9, 10, 11, 2010!  Please visit the Volunteer 
+				place to be October 22, 23, 24, 2010!  Please visit the Volunteer 
 				section to get signed up!
 				</p>
 			</div>
@@ -41,14 +38,23 @@ Columbus Give Camp
 		</div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="SideBar" runat="server">
-		<ul>
-			<li>
-				<h2>GiveCamp Resources</h2>
+    <ul>
+        <li>
+			<h2>GiveCamp Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><a href="http://www.lansinggivecamp.org/" target="_blank">Lansing GiveCamp</a></li>
-					<li><a href="http://www.michigangivecamp.org/" target="_blank">Michigan GiveCamp</a></li>
+                    <li><a><%=Html.ActionLink("Get Directions","Directions") %></a></li>
 				</ul>
-			</li>
-		</ul>
+        </li>
+    
+        <li>
+            <h2 class="title">Contact Information:</h2>
+            <ul>
+                <li><a href="mailto:info@southwestohiogivecamp.org">info@southwestohiogivecamp.org</a></li>
+                <li><a href="http://twitter.com/swohiogivecamp" target="_blank">Twitter: @swohiogivecamp</a></li>
+                <li><a href="http://www.facebook.com/group.php?gid=118409961503581&v=wall">Facebook</a></li>
+                <li><a href="http://www.linkedin.com/groups?home=&gid=2990923&trk=anet_ug_hm">LinkedIn</a></li>
+            </ul>
+        </li>
+    </ul>
 </asp:Content>

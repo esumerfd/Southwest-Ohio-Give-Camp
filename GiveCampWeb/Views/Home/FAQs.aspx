@@ -14,7 +14,7 @@
 </asp:Content>
 
 <asp:Content ContentPlaceHolderID="SideBar" runat="server">
-		<ul>
+        <ul>
 			<li>
 				<h2>FAQ Resources</h2>
 				<ul>				    
@@ -28,7 +28,7 @@
 </asp:Content>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
-		<h1 class="pagetitle">FAQs</h1>
+        <h1 class="pagetitle">FAQs</h1>
 		<div class="post">
 			<h2 class="title">FAQs</h2>
 			

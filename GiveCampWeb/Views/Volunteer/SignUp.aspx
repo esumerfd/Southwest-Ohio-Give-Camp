@@ -55,9 +55,8 @@
 				<h2>Volunteer Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><a href="http://www.lansinggivecamp.org/" target="_blank">Lansing GiveCamp</a></li>
-					<li><a href="http://www.michigangivecamp.org/" target="_blank">Michigan GiveCamp</a></li>
-					<li><a href="http://www.redbull.com" target="_blank">Red Bull</a></li>
+					<li><%=Html.ActionLink("Volunteer On-Line","SignUp") %></li>
+                     <li><%=Html.ActionLink("Volunteer FAQ", "FAQs", "Home",new {id="Developers"})%></li>
 				</ul>
 			</li>
 		</ul>
@@ -67,8 +66,8 @@
 	<h1 class="pagetitle">Volunteer Sign-Up</h1>
 	<div class="post">
 		<h2 class="title">Volunteer Sign-Up Form</h2>
-		
-		<p>To volunteer for Give Camp, please fill out this form in it's entirety.  Any
+		<p>We are not yet Accepting Volunteers.  Thank You.</p>
+		<%--<p>To volunteer for Give Camp, please fill out this form in it's entirety.  Any
 		additional information about yourself can be included in the comments box at the
 		bottom of the form.  Thank you for participating in Give Camp!</p>
 		
@@ -236,6 +235,6 @@
 
         <% } %>
 		</div>
-		<p class="meta"></p>
+		<p class="meta"></p>--%>
 	</div>
 </asp:Content>

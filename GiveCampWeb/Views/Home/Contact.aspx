@@ -15,7 +15,10 @@ Contact Us
 			<h2 class="title">Contact Information:</h2>
 			
 			<div class="entry">
-				<p>info@columbusgivecamp.org</p>
+				<p><a href="mailto:info@southwestohiogivecamp.org">info@southwestohiogivecamp.org</a></p>
+                <p><a href="http://twitter.com/swohiogivecamp" target="_blank">Twitter: @swohiogivecamp</a></p>
+                <p><a href="http://www.facebook.com/group.php?gid=118409961503581&v=wall">Facebook</a></p>
+                <p><a href="http://www.linkedin.com/groups?home=&gid=2990923&trk=anet_ug_hm">LinkedIn</a></p>
 			</div>
 			<p class="meta"></p>
 		</div>
@@ -28,8 +31,9 @@ Contact Us
 				<h2>Other Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><a href="http://www.lansinggivecamp.org/" target="_blank">Lansing GiveCamp</a></li>
-					<li><a href="http://www.michigangivecamp.org/" target="_blank">Michigan GiveCamp</a></li>
+                    <li><a href="http://twitter.com/swohiogivecamp" target="_blank">Twitter: @swohiogivecamp</a></li>
+                    <li><a href="http://www.facebook.com/group.php?gid=118409961503581&v=wall">Facebook</a></li>
+                    <li><a href="http://www.linkedin.com/groups?home=&gid=2990923&trk=anet_ug_hm">LinkedIn</a></li>
 				</ul>
 			</li>
 		</ul>

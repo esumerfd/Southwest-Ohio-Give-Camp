@@ -53,9 +53,7 @@ About Us
 				<h2>Other Resources </h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><a href="http://www.lansinggivecamp.org/" target="_blank">Lansing GiveCamp</a></li>
-					<li><a href="http://www.michigangivecamp.org/" target="_blank">Michigan GiveCamp</a></li>
-				</ul>
+			    </ul>
 			</li>
 		</ul>
 </asp:Content>

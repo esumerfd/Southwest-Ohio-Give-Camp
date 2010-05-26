@@ -115,7 +115,7 @@
             <div class="faq">
                 <a class="question">What about parking?</a>
                 <div class="answer">
-                	<p>A large parking lot is available at the ICC facility</p>
+                	<p>A large parking lot is available at the facility</p>
                 </div>
             </div>
 
@@ -155,7 +155,7 @@
             <div class="faq">
                 <a class="question">When do we need to be done?</a>
                 <div class="answer">
-                	<p>Please do your best to complete everything by 4:00 pm Sunday afternoon. We'd like to use the last hour or so to get together and show everybody the apps created over the weekend.</p>
+                	<p>Please do your best to complete everything by 3:00 pm Sunday afternoon. We'd like to use the last hour or so to get together and show everybody the apps created over the weekend.</p>
                 </div>
             </div>
 
