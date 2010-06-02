@@ -18,7 +18,23 @@ namespace GiveCampWeb.Controllers
         {
             return View("Proposal", new CharitySignUpViewModel());
         }
-
+        [AcceptVerbs(HttpVerbs.Get)]
+        public ActionResult Review()
+        {
+            Models.CharityRepository repo = new CharityRepository();
+            return View(repo.GetAllCharities());
+        }
+        
+        public ActionResult Details(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                return (View("Review"));
+            }
+            int CharityRequestID = Convert.ToInt32(id);
+            Models.CharityRepository repo = new CharityRepository();
+            return View(repo.GetCharities(CharityRequestID));
+        }
         [AcceptVerbs(HttpVerbs.Post)]
         public ActionResult SignUp(CharityRequirement charity, FormCollection form)
         {

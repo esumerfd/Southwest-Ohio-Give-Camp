@@ -109,8 +109,9 @@
     <Content Include="favicon.ico" />
     <Content Include="GeneralError.htm" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Charity\Details.aspx" />
+    <Content Include="Views\Charity\Review.aspx" />
     <Content Include="Views\Home\Directions.aspx" />
-    <Content Include="Views\Status\ManageVolunteers.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -177,6 +178,9 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Documents\GiveCamp Slick Sheet.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Models\GiveCamp.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>GiveCamp.designer.cs</LastGenOutput>

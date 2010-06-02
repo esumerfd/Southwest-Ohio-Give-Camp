@@ -13,7 +13,12 @@ namespace GiveCampWeb.Models
         {
             return _datacontext.CharityRequirements;
         }
-
+        public CharityRequirement GetCharities(int CharityRequirementID)
+        {
+            return (from cr in _datacontext.CharityRequirements
+                   where cr.CharityRequirementId == CharityRequirementID
+                   select cr).First();
+        }
         public void Register(CharityRequirement charity)
         {
             Register(charity, new List<Technology>(), new List<Technology>());
