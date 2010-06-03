@@ -6,41 +6,41 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>Review</h2>
+    <h2>Review of Charity Proposals</h2>
 
-    <table>
-        <tr style="width:100px; border-color:Gray; border-width:1px; background-color:Silver; margin:5px">
+    <table style="border-spacing:0px" >
+        <tr style="border-color:Gray; border-width:1px; background-color:Silver; margin:5px">
             <th></th>
-            <th>
+            <th  style="width:30px;">
                 ID
             </th>
-            <th>
+            <th  style="width:150px;">
                 ContactName
             </th>
-            <th>
+            <th  style="width:150px;">
                 CharityName
             </th>
-            <th>
+            <th  style="width:100px;">
                 Email
             </th>
         </tr>
 
     <% foreach (var item in Model) { %>
     
-        <tr style="width:100px; border-color:Gray; border-width:1px">
-            <td >
+        <tr style="width:100px;">
+            <td  >
                 <%: Html.ActionLink("Details", "Details", new { id=item.CharityRequirementId })%>
             </td>
-            <td style="width:100px; border-color:Gray; border-width:1px">
+            <td style="width:30px;">
                 <%: item.CharityRequirementId %>
             </td>
-            <td>
+            <td >
                 <%: item.ContactName %>
             </td>
-            <td>
+            <td >
                 <%: item.CharityName %>
             </td>
-            <td>
+            <td >
                 <%: item.Email %>
             </td>
         </tr>
@@ -48,10 +48,6 @@
     <% } %>
 
     </table>
-
-    <p>
-        <%: Html.ActionLink("Create New", "Create") %>
-    </p>
 
 </asp:Content>
 
