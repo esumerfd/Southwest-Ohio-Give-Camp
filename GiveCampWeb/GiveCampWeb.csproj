@@ -78,8 +78,10 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CharityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\VolunteerController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -89,6 +91,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\CheckBoxListViewHelper.cs" />
+    <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\CharityRepository.cs" />
     <Compile Include="Models\GiveCamp.designer.cs">
       <AutoGen>True</AutoGen>
@@ -100,6 +103,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\aspnetdb.mdf" />
+    <Content Include="App_Data\aspnetdb_log.LDF">
+      <DependentUpon>aspnetdb.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\GIVECAMP.mdf" />
     <Content Include="App_Data\GIVECAMP_log.ldf">
       <DependentUpon>GIVECAMP.mdf</DependentUpon>
@@ -109,9 +116,14 @@
     <Content Include="favicon.ico" />
     <Content Include="GeneralError.htm" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
     <Content Include="Views\Charity\Details.aspx" />
     <Content Include="Views\Charity\Review.aspx" />
     <Content Include="Views\Home\Directions.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

@@ -42,7 +42,8 @@
 		<li id="navFAQ"><a href="<%=Url.Action("FAQs","Home",new {id=""}) %>">FAQ</a></li>
 		<li id="navAbout"><a href="<%=Url.Action("About","Home")%>">About</a></li>
 		<li id="navContact"><a href="<%=Url.Action("Contact","Home") %>">Contact</a></li>
-	    <asp:LoginStatus ID="LoginStatus1" runat="server" />
+        <li id="navLogin"><a href="<%=Url.Action("LogOn","Account") %>">Login</a></li>
+	    
 	</ul>
 </div>
 <!-- end menu -->
