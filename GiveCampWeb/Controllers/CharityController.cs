@@ -18,14 +18,14 @@ namespace GiveCampWeb.Controllers
         {
             return View("Proposal", new CharitySignUpViewModel());
         }
-        [Authorize]
+       [Authorize(Roles = "Administrator")] 
         [AcceptVerbs(HttpVerbs.Get)]
         public ActionResult Review()
         {
             Models.CharityRepository repo = new CharityRepository();
             return View(repo.GetAllCharities());
         }
-        [Authorize]
+        [Authorize(Roles = "Administrator")] 
         public ActionResult Details(string id)
         {
             if (string.IsNullOrEmpty(id))
