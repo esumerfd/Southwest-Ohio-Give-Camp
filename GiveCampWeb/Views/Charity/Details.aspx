@@ -11,19 +11,19 @@
          <div class="rowwrap">
                     <div class="label"><label for="ContactName">Contact Name:</label></div>
                     <div class="input">
-                        <%= Html.TextBox("ContactName")%>
+                        <%= Html.TextArea("ContactName", new { rows = "1", cols = "30" })%>
                     </div>
          </div>
          <div class="rowwrap">
                     <div class="label"><label for="CharityName">Charity Name:</label></div>
                     <div class="input">
-                        <%= Html.TextBox("CharityName")%>
+                        <%= Html.TextArea("CharityName", new { rows = "1", cols = "30" })%>
                     </div>
          </div>
          <div class="rowwrap">
                     <div class="label"><label for="PhoneNumber">Phone Number:</label></div>
                     <div class="input">
-                        <%= Html.TextBox("PhoneNumber")%>
+                        <%= Html.TextArea("PhoneNumber", new { rows = "1", cols = "30" })%>
                     </div>
          </div>
          <div class="rowwrap">
@@ -47,7 +47,7 @@
           <div class="rowwrap">
                     <div class="label"><label for="BackgroundInformation">Charity Information:</label></div>
                     <div class="input">
-                    <%=Html.TextArea("BackgroundInformation", new { rows = "5", cols = "30" })%>
+                    <%=Html.TextArea("BackgroundInformation", new { rows = "8", cols = "30" })%>
                     </div>
          </div>
          <div class="rowwrap">
