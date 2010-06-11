@@ -103,13 +103,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\aspnetdb.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="App_Data\aspnetdb_log.LDF">
-      <DependentUpon>aspnetdb.mdf</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="App_Data\GIVECAMP.mdf" />
     <Content Include="App_Data\GIVECAMP_log.ldf">
       <DependentUpon>GIVECAMP.mdf</DependentUpon>
