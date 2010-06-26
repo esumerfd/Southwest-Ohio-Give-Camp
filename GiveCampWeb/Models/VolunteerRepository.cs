@@ -13,6 +13,11 @@ namespace GiveCampWeb.Models
             return _datacontext.Volunteers;
         }
 
+        public Volunteer GetVolunteer(int VolunteerID)
+        {
+            return _datacontext.Volunteers.First(m=>m.VolunteerID==VolunteerID);
+        }
+
         public void Register(Volunteer volunteer)
         {
             Register(volunteer, new List<JobRole>(), new List<Technology>());

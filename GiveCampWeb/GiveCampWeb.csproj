@@ -90,6 +90,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers.cs" />
     <Compile Include="Helpers\CheckBoxListViewHelper.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\CharityRepository.cs" />
@@ -120,6 +121,8 @@
     <Content Include="Views\Charity\Review.aspx" />
     <Content Include="Views\Home\Directions.aspx" />
     <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Volunteer\Details.aspx" />
+    <Content Include="Views\Volunteer\Review.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

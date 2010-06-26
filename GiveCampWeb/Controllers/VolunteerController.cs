@@ -39,6 +39,22 @@ namespace GiveCampWeb.Controllers
             return View(new SignUpViewModel(volunteer));
         }
 
+        [AcceptVerbs(HttpVerbs.Get)]
+        public ActionResult Review()
+        {
+            Models.VolunteerRepository repo = new VolunteerRepository();
+            return View(repo.GetAllVolunteers());
+        }
+        public ActionResult Details(string Volunteerid)
+        {
+            if (string.IsNullOrEmpty(Volunteerid))
+            {
+                return (View("Review"));
+            }
+            int VolID = Convert.ToInt32(Volunteerid);
+            Models.VolunteerRepository repo = new VolunteerRepository();
+            return View("Details", repo.GetVolunteer(VolID));
+        }
         private static List<JobRole> SelectedJobRoles(FormCollection form)
         {
             var jobRoles = new List<JobRole>();

@@ -177,7 +177,6 @@ public class CharitySignUpViewModel
             CharityRequirement = new CharityRequirement();
         else
             CharityRequirement = charity;
-
         var lookupRepository = new LookupRepository();
 
         var infrastructureTechnologies = lookupRepository.GetAllTechnologies();

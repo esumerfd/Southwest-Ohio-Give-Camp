@@ -66,8 +66,7 @@
 	<h1 class="pagetitle">Volunteer Sign-Up</h1>
 	<div class="post">
 		<h2 class="title">Volunteer Sign-Up Form</h2>
-		<p>Volunteer registration opens July 1, 2010. Please check back then. Thank you.</p>
-		<%--<p>To volunteer for Give Camp, please fill out this form in it's entirety.  Any
+		<p>To volunteer for Give Camp, please fill out this form in it's entirety.  Any
 		additional information about yourself can be included in the comments box at the
 		bottom of the form.  Thank you for participating in Give Camp!</p>
 		
@@ -206,6 +205,13 @@
                         <%= Html.ValidationMessage("TwitterHandle")%>
                     </div>
                 </div>
+                 <div class="rowwrap">
+                    <div class="label"><label for="HasLaptop">Do you have a laptop?:</label></div>
+                    <div class="input">
+                        <%= Html.CheckBox("HasLaptop")%><label for="HasLaptop">Yes</label>
+                        <%= Html.ValidationMessage("HasLaptop")%>
+                    </div>
+                </div>
                 <div class="rowwrap">
                     <div class="label"><label for="SpareLaptop">Can you bring a spare laptop?:</label></div>
                     <div class="input">
@@ -235,6 +241,6 @@
 
         <% } %>
 		</div>
-		<p class="meta"></p>--%>
+		<p class="meta"></p>
 	</div>
 </asp:Content>
