@@ -56,5 +56,12 @@ Southwest Ohio Give Camp
                 <li><a href="http://www.linkedin.com/groups?home=&gid=2990923&trk=anet_ug_hm">LinkedIn</a></li>
             </ul>
         </li>
+	    <li>
+    		<h2 class="title">Other Give Camps:</h2>
+      		<ul>
+        		<li><a href="http://www.columbusgivecamp.org/GiveCamp" target="_blank">Columbus Give Camp, July 9,10,11</a></li>
+        		<li><a href="http://www.clevelandgivecamp.org/" target="_blank">Cleveland Give Camp, July 16,17,18</a></li>
+     		</ul>
+    	</li>
     </ul>
 </asp:Content>
