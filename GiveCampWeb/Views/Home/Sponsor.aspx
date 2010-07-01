@@ -16,8 +16,14 @@ Sponsor the Columbus Give Camp
 			
 			<div class="entry">
 				<p>
-				Southwest Ohio Give Camp is a volunteer event.  We are looking for donations in the form of 
-				cash, product licenses, and food!<br /><br />
+                Give Camp is a national organization that brings charities and technology teams together, over a weekend, to help them start or improve the technology solutions they use.</p>
+                <p>Over the weekend of October 23, 2010 we are running a regional Give Camp in Cincinnati to serve charities located in Southwest Ohio. We expect to attract over 50 developers, designers and project managers to help 10 charities.</p>
+                <p>To do this we need your help to cover the expense for the venue and to keep hungry project teams focus on the problems at hand. We have defined the following guidelines to help you decide how much you would like to invest.</p>
+                <p>- $100 to get your name or logo on the sponsor page on the our website where so many developers will come to register.</p>
+                <p>- $500 will also allow you to get your brochure material on the registration desk that all attendees will pass when they enter the venue to register.</p>
+                <p>- $1000 will also allow you to use the snack area to display your information that all attendees will be using the whole weekend. You will also get your logo included on the t-shirts that will be handed out to the attendees.</p>
+                <p>We are also looking for donations in the form of 
+				product licenses and food!</p><br /><br />
 				If you would like to sponsor our event, please email details to:<br /><br />
 				
 				<a href="mailto:info@southwestohiogivecamp.org">info@southwestohiogivecamp.org</a></p>

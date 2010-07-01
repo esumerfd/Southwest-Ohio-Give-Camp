@@ -138,7 +138,7 @@
     
     <p>
 
-        <%: Html.ActionLink("Back to List", "Index") %>
+        <%: Html.ActionLink("Back to List", "Review") %>
     </p>
 
 </asp:Content>

@@ -90,7 +90,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Helpers.cs" />
     <Compile Include="Helpers\CheckBoxListViewHelper.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\CharityRepository.cs" />
