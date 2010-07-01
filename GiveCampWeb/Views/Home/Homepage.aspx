@@ -38,30 +38,31 @@ Southwest Ohio Give Camp
 		</div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="SideBar" runat="server">
-    <ul>
-        <li>
-			<h2>GiveCamp Resources</h2>
-				<ul>
-					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-                    <li><a><%=Html.ActionLink("Get Directions","Directions") %></a></li>
-				</ul>
-        </li>
+  <ul>
+    <li>
+      <h2>GiveCamp Resources</h2>
+      <ul>
+	<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
+        <li><a><%=Html.ActionLink("Get Directions","Directions") %></a></li>
+      </ul>
+    </li>
     
-        <li>
-            <h2 class="title">Contact Information:</h2>
-            <ul>
-                <li><a href="mailto:info@southwestohiogivecamp.org">info@southwestohiogivecamp.org</a></li>
-                <li><a href="http://twitter.com/swohiogivecamp" target="_blank">Twitter: @swohiogivecamp</a></li>
-                <li><a href="http://www.facebook.com/group.php?gid=118409961503581&v=wall">Facebook</a></li>
-                <li><a href="http://www.linkedin.com/groups?home=&gid=2990923&trk=anet_ug_hm">LinkedIn</a></li>
-            </ul>
-        </li>
-	    <li>
-    		<h2 class="title">Other Give Camps:</h2>
-      		<ul>
-        		<li><a href="http://www.columbusgivecamp.org/GiveCamp" target="_blank">Columbus Give Camp, July 9,10,11</a></li>
-        		<li><a href="http://www.clevelandgivecamp.org/" target="_blank">Cleveland Give Camp, July 16,17,18</a></li>
-     		</ul>
-    	</li>
+    <li>
+      <h2 class="title">Contact Information:</h2>
+      <ul>
+        <li><a href="mailto:info@southwestohiogivecamp.org">info@southwestohiogivecamp.org</a></li>
+        <li><a href="http://twitter.com/swohiogivecamp" target="_blank">Twitter: @swohiogivecamp</a></li>
+        <li><a href="http://groups.google.com/group/southwest-ohio-give-camp" target="_blank">Google Group</a>
+        <li><a href="http://www.facebook.com/group.php?gid=118409961503581&v=wall">Facebook</a></li>
+        <li><a href="http://www.linkedin.com/groups?home=&gid=2990923&trk=anet_ug_hm">LinkedIn</a></li>
+      </ul>
+    </li>
+    <li>
+      <h2 class="title">Other Give Camps:</h2>
+      <ul>
+        <li><a href="http://www.columbusgivecamp.org/GiveCamp" target="_blank">Columbus Give Camp, July 9</a></li>
+        <li><a href="http://www.clevelandgivecamp.org/" target="_blank">Cleveland Give Camp, July 16</a></li>
+      </ul>
+    </li>
     </ul>
 </asp:Content>
