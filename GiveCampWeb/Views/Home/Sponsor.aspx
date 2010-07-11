@@ -31,22 +31,45 @@ Sponsor the Columbus Give Camp
 			<p class="meta"></p>
 		</div>
 		
-		<div class="post">
-			<h2 class="title">Our Current Sponsors</h2>
-			
-			<div class="entry">
-				
-				    <table>
-				    <tr>
-                    <%--<td><a href="http://wwww.microsoft.com" target="_blank"><img src="../../Content/Images/SponsorLogos/microsoft.jpg" alt="Microsoft" border="0" /></a></td>--%>
-				        <td><a href="http://www.DiscountASP.Net" target="_blank"><img src="../../Content/Images/SponsorLogos/dasplogo_tagline.jpg" alt="DiscountASP.Net" border="0" height="50%" width="50%" /></a></td>
-				    </tr>
-				    </table>
-				
-				
-			</div>
-			<p class="meta"></p>
-		</div>
+<div class="post">
+  <h2 class="title">Our Current Sponsors</h2>
+  
+  <div class="entry">
+    
+    <table>
+      <tr>
+
+	<td>
+          <a href="http://www.DiscountASP.Net" target="_blank">
+            <img src="../../Content/Images/SponsorLogos/dasplogo_tagline.jpg" alt="DiscountASP.Net" border="0" height="50%" width="50%" />
+          </a>
+        </td>
+
+	<td>
+          <a href="http://www.grapecity.com" target="_blank">
+            <img src="../../Content/Images/SponsorLogos/LogoGrapeCity.png" alt="Grape City" border="0"/>
+          </a>
+        </td>
+
+	<td>
+          <a href="http://oreilly.com" target="_blank">
+            <img src="../../Content/Images/SponsorLogos/LogoOReilly.gif" alt="O'Reilly" border="0" height="50%" width="50%"/>
+          </a>
+        </td>
+
+	<td>
+          <a href="http://www.ssware.com" target="_blank">
+            <img src="../../Content/Images/SponsorLogos/LogoLogicNP.jpg" alt="LogicNP Software" border="0"/>
+          </a>
+        </td>
+
+   </tr>
+    </table>
+    
+    
+  </div>
+  <p class="meta"></p>
+</div>
 		
 		
 </asp:Content>
