@@ -60,8 +60,7 @@ Southwest Ohio Give Camp
     <li>
       <h2 class="title">Other Give Camps:</h2>
       <ul>
-        <li><a href="http://www.columbusgivecamp.org/GiveCamp" target="_blank">Columbus Give Camp, July 9</a></li>
-        <li><a href="http://www.clevelandgivecamp.org/" target="_blank">Cleveland Give Camp, July 16</a></li>
+       <li><a href="http://www.clevelandgivecamp.org/" target="_blank">Cleveland Give Camp, July 16</a></li>
       </ul>
     </li>
     </ul>
