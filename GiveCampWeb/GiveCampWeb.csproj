@@ -108,6 +108,10 @@
       <DependentUpon>GIVECAMP.mdf</DependentUpon>
     </Content>
     <Content Include="Content\Images\SponsorLogos\dasplogo_tagline.jpg" />
+    <Content Include="Content\Images\SponsorLogos\ICCLogo.png" />
+    <Content Include="Content\Images\SponsorLogos\LogoGrapeCity.png" />
+    <Content Include="Content\Images\SponsorLogos\LogoLogicNP.jpg" />
+    <Content Include="Content\Images\SponsorLogos\LogoOReilly.gif" />
     <Content Include="Content\Images\SwOGiveCamp_thumb.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="GeneralError.htm" />
