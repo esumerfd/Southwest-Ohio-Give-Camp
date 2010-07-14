@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-Sponsor the Columbus Give Camp
+Sponsor the Southwest Ohio Give Camp
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="HeadScriptRegion" runat="server">
     <script language="javascript" type="text/javascript">
@@ -50,7 +50,8 @@ Sponsor the Columbus Give Camp
             <img src="../../Content/Images/SponsorLogos/LogoGrapeCity.png" alt="Grape City" border="0"/>
           </a>
         </td>
-
+        </tr>
+        <tr>
 	<td>
           <a href="http://oreilly.com" target="_blank">
             <img src="../../Content/Images/SponsorLogos/LogoOReilly.gif" alt="O'Reilly" border="0" height="50%" width="50%"/>
