@@ -7,7 +7,11 @@ namespace GiveCampWeb.Models
     public class VolunteerRepository
     {
         private GiveCampDataContext _datacontext = new GiveCampDataContext();
-
+        public static int GetVolunteerCount()
+        {
+            GiveCampDataContext _d = new GiveCampDataContext();
+            return _d.Volunteers.Count();
+        }
         public IQueryable<Volunteer> GetAllVolunteers()
         {
             return _datacontext.Volunteers;

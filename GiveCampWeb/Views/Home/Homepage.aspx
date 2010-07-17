@@ -27,6 +27,7 @@ Southwest Ohio Give Camp
 				submit work proposals through our website.  Please see the
 				Charity section of this web site to submit your proposal.
 				</p>
+                <p> We currently have <%=GiveCampWeb.Models.CharityRepository.GetCharitySignupTotal().ToString()%> Charities and <%=GiveCampWeb.Models.VolunteerRepository.GetVolunteerCount().ToString()%> Volunteers Signed up through our on-line sign up pages.</p>
 				<p>
 				If you are a developer/designer/project manager looking to make
 				a difference and use your skills to assist others, this is the 

@@ -9,6 +9,11 @@ namespace GiveCampWeb.Models
     {
         private GiveCampDataContext _datacontext = new GiveCampDataContext();
 
+        public static  int GetCharitySignupTotal()
+        {
+            GiveCampDataContext _d = new GiveCampDataContext();
+            return _d.CharityRequirements.Count();
+        }
         public IQueryable<CharityRequirement> GetAllCharities()
         {
             return _datacontext.CharityRequirements;
