@@ -39,36 +39,36 @@ namespace GiveCampWeb.Controllers
         [HttpPost]
         public ActionResult LogOn(LogOnModel model, string returnUrl)
         {
-            model.UserName="TestUser";
-            model.RememberMe = true;
-            FormsService.SignIn(model.UserName, model.RememberMe);
-            if (!String.IsNullOrEmpty(returnUrl))
-            {
-                return Redirect(returnUrl);
-            }
-            else
-            {
-                return RedirectToAction("Index", "Home");
-            }
-            //if (ModelState.IsValid)
+            //model.UserName="TestUser";
+            //model.RememberMe = true;
+            //FormsService.SignIn(model.UserName, model.RememberMe);
+            //if (!String.IsNullOrEmpty(returnUrl))
             //{
-            //    if (MembershipService.ValidateUser(model.UserName, model.Password))
-            //    {
-            //        FormsService.SignIn(model.UserName, model.RememberMe);
-            //        if (!String.IsNullOrEmpty(returnUrl))
-            //        {
-            //            return Redirect(returnUrl);
-            //        }
-            //        else
-            //        {
-            //            return RedirectToAction("Index", "Home");
-            //        }
-            //    }
-            //    else
-            //    {
-            //        ModelState.AddModelError("", "The user name or password provided is incorrect.");
-            //    }
+            //    return Redirect(returnUrl);
             //}
+            //else
+            //{
+            //    return RedirectToAction("Index", "Home");
+            //}
+            if (ModelState.IsValid)
+            {
+                if (MembershipService.ValidateUser(model.UserName, model.Password))
+                {
+                    FormsService.SignIn(model.UserName, model.RememberMe);
+                    if (!String.IsNullOrEmpty(returnUrl))
+                    {
+                        return Redirect(returnUrl);
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                }
+            }
 
             // If we got this far, something failed, redisplay form
             return View(model);

@@ -38,13 +38,14 @@ namespace GiveCampWeb.Controllers
 
             return View(new SignUpViewModel(volunteer));
         }
-
+        [Authorize] 
         [AcceptVerbs(HttpVerbs.Get)]
         public ActionResult Review()
         {
             Models.VolunteerRepository repo = new VolunteerRepository();
             return View(repo.GetAllVolunteers());
         }
+        [Authorize] 
         public ActionResult Details(string Volunteerid)
         {
             if (string.IsNullOrEmpty(Volunteerid))
