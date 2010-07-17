@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuthenticationEvents.cs" />
+    <Compile Include="AuthExtensionHelperMethod.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CharityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />

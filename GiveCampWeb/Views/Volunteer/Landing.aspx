@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
+<%@ Import Namespace="GiveCampWeb.Helpers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
 For Volunteers
 </asp:Content>
@@ -61,6 +62,9 @@ To sign up, go to http://southwestohiogivecamp.org/Volunteer/Signup
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
 					<li><%=Html.ActionLink("Volunteer On-Line","SignUp") %></li>
                      <li><%=Html.ActionLink("Volunteer FAQ", "FAQs", "Home", "FAQs", new {id="Developers"})%></li>
+
+                     <%= Html.AuthListItem("Review Volunteers","Volunteer","Review")%>
+                       
 				</ul>
 			</li>
 		</ul>
