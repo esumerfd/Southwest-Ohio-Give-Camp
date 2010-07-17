@@ -56,7 +56,7 @@
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
 					<li><%=Html.ActionLink("Volunteer On-Line","SignUp") %></li>
-                     <li><%=Html.ActionLink("Volunteer FAQ", "FAQs", "Home",new {id="Developers"})%></li>
+                    <li id="navFAQ"><a href="<%=Url.Action("FAQs","Home",new {id="Developers"}) %>">Volunteer FAQ</a></li>
 				</ul>
 			</li>
 		</ul>
