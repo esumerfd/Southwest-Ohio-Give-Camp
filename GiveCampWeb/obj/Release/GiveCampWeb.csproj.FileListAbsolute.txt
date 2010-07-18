@@ -1,0 +1,8 @@
+C:\Users\Ernie\Documents\Visual Studio 2010\Projects\Southwest-Ohio-Give-Camp\GiveCampWeb\bin\Content\Documents\GiveCamp Slick Sheet.pdf
+C:\Users\Ernie\Documents\Visual Studio 2010\Projects\Southwest-Ohio-Give-Camp\GiveCampWeb\bin\GiveCampWeb.dll
+C:\Users\Ernie\Documents\Visual Studio 2010\Projects\Southwest-Ohio-Give-Camp\GiveCampWeb\bin\GiveCampWeb.pdb
+C:\Users\Ernie\Documents\Visual Studio 2010\Projects\Southwest-Ohio-Give-Camp\GiveCampWeb\bin\System.Web.Mvc.dll
+C:\Users\Ernie\Documents\Visual Studio 2010\Projects\Southwest-Ohio-Give-Camp\GiveCampWeb\bin\System.Web.Mvc.xml
+C:\Users\Ernie\Documents\Visual Studio 2010\Projects\Southwest-Ohio-Give-Camp\GiveCampWeb\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Ernie\Documents\Visual Studio 2010\Projects\Southwest-Ohio-Give-Camp\GiveCampWeb\obj\Release\GiveCampWeb.dll
+C:\Users\Ernie\Documents\Visual Studio 2010\Projects\Southwest-Ohio-Give-Camp\GiveCampWeb\obj\Release\GiveCampWeb.pdb

@@ -14,7 +14,7 @@
         <%= Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.") %>
         <div>
             <fieldset>
-                <legend>Account Information - Enter anything, this just keeps bots out for now</legend>
+                <legend>Account Information</legend>
                 
                 <div class="editor-label">
                     <%= Html.LabelFor(m => m.UserName) %>
