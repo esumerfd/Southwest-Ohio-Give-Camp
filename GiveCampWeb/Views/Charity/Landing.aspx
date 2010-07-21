@@ -42,7 +42,7 @@ For Charities
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
 					<li><%=Html.ActionLink("Submit your proposal On-Line","SignUp") %></li>
-                    <li><%=Html.ActionLink("Charities FAQ", "FAQs", "Home", "FAQs", new { id = "Charities" })%></li>
+                    <li id="CharityFAQ"><a href="<%=Url.Action("FAQs","Home",new {id="Charities"}) %>">Charities FAQ</a></li>
                     <%= Html.AuthListItem("Review Charities","Charity","Review")%>
                     <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Content/Documents/GiveCamp Slick Sheet.pdf">Charity Instruction Sheet (PDF)</asp:HyperLink></li>
 				</ul>

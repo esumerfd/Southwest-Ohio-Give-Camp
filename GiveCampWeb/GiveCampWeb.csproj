@@ -106,7 +106,7 @@
     <Compile Include="WebConfigMembershipProvider.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\GIVECAMP.mdf" />
+    <None Include="App_Data\GIVECAMP.mdf" />
     <Content Include="App_Data\GIVECAMP_log.ldf">
       <DependentUpon>GIVECAMP.mdf</DependentUpon>
     </Content>

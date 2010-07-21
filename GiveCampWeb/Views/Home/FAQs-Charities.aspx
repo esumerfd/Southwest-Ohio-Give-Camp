@@ -152,14 +152,14 @@
              <div class="faq">
                 <a class="question">When will I know if my proposal has been selected?</a>
                 <div class="answer">
-                	<p>The selected charities will be published to the GiveCamp website on July 10th. Selected charities will also be emailed.</p>
+                	<p>You notified by email whether or not your initial submission has been selected around July 20th. You will be notified whether or not your project has been selected around August 31st.</p>
                 </div>
             </div>
 
              <div class="faq">
                 <a class="question">When is the last date to submit a proposal?</a>
                 <div class="answer">
-                	<p>The initial charity submissions are due to the website on July 16th.  The detailed charity submissions are due August 20th.</p>
+                	<p>The initial charity submissions are due to the website on July 16th. The detailed charity submissions are due August 20th.</p>
                 </div>
             </div>
         </div>

@@ -61,8 +61,7 @@ To sign up, go to http://southwestohiogivecamp.org/Volunteer/Signup
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
 					<li><%=Html.ActionLink("Volunteer On-Line","SignUp") %></li>
-                     <li><%=Html.ActionLink("Volunteer FAQ", "FAQs", "Home", "FAQs", new {id="Developers"})%></li>
-
+                     <li id="navFAQ"><a href="<%=Url.Action("FAQs","Home",new {id="Developers"}) %>">Volunteer FAQ</a></li>
                      <%= Html.AuthListItem("Review Volunteers","Volunteer","Review")%>
                        
 				</ul>
