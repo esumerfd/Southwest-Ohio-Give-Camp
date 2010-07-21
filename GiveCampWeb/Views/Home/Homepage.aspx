@@ -59,10 +59,10 @@ Southwest Ohio Give Camp
       </ul>
     </li>
     <li>
-      <h2 class="title">Other Give Camps:</h2>
+      <!-- h2 class="title">Other Give Camps:</h2>
       <ul>
        <li><a href="http://www.clevelandgivecamp.org/" target="_blank">Cleveland Give Camp, July 16</a></li>
       </ul>
     </li>
-    </ul>
+    </ul -->
 </asp:Content>
