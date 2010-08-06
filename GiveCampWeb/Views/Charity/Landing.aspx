@@ -15,12 +15,13 @@ For Charities
 		<div class="post">
 			<h2 class="title">Information For Charities</h2>
 			<div class="entry">
-				<p>Below is a link to a form to fill out.  Please read the 
+            <p>The Charity Submission Period has closed.</p>
+				<%--<p>Below is a link to a form to fill out.  Please read the 
 				    <%=Html.ActionLink("FAQ","FAQs","Home") %>
 				    prior to submitting the form.  Keep in mind scoped work should
 				    be able to be accomplished in one weekend's time.
 				</p>
-               <p><%=Html.ActionLink("Submit your proposal","SignUp") %></p>
+               <p><%=Html.ActionLink("Submit your proposal","SignUp") %></p>--%>
                <p>Give Camp is a nationwide effort that brings together a community of volunteers to donate their time and talents to build the technical resources and capacity of local non-profit organizations. Since its inception in 2007, the GiveCamp program has provided benefits to over 150 charities, with a value of developer and designer time exceeding $100,000 in services!  During weekend-long Give Camps in each community, software developers, designers, database administrators, and other technology professionals create web and software solutions for non-profit organizations. In the past, Give Camp has helped organizations:</p>
             <ul>
 			    <li>Establish their web presence.</li>
@@ -41,7 +42,7 @@ For Charities
 				<h2>Charity Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><%=Html.ActionLink("Submit your proposal On-Line","SignUp") %></li>
+					<%--<li><%=Html.ActionLink("Submit your proposal On-Line","SignUp") %></li>--%>
                     <li id="CharityFAQ"><a href="<%=Url.Action("FAQs","Home",new {id="Charities"}) %>">Charities FAQ</a></li>
                     <%= Html.AuthListItem("Review Charities","Charity","Review")%>
                     <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Content/Documents/GiveCamp Slick Sheet.pdf">Charity Instruction Sheet (PDF)</asp:HyperLink></li>

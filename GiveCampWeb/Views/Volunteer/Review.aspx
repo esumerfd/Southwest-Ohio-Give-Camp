@@ -17,8 +17,8 @@
             <th>
                 Last Name
             </th>
-            <th >
-                Team Name
+             <th >
+                Project Manager
             </th>
             <th >
                 Email Address
@@ -42,7 +42,7 @@
                 <%: item.LastName %>
             </td>
             <td style="width:100px;">
-                <%: item.TeamName %>
+                <%:Html.CheckBox("IsPM",item.IsPM) %>
             </td>
             <td style="width:100px;">
                 <%: item.EmailAddress %>

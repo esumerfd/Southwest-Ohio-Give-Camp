@@ -50,7 +50,7 @@
         <elementListCompartment Id="1889c08e-75ba-4356-aab8-652695e9c2ea" absoluteBounds="3.515, 1.71, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(3.25 : 8.375); (3.25 : 8.1362939453125); (3.69791866666667 : 8.1362939453125 : JumpStart); (3.86458533333333 : 8.1362939453125 : JumpEnd); (5.75 : 8.1362939453125); (5.75 : 3.34699625651042); (5.79166666666667 : 3.34699625651042 : JumpStart); (5.95833333333333 : 3.34699625651042 : JumpEnd); (6.25 : 3.34699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <associationConnector edgePoints="[(3.25 : 8.375); (3.25 : 8.1362939453125); (3.69791866666667 : 8.1362939453125 : JumpStart); (3.86458533333333 : 8.1362939453125 : JumpEnd); (5.75 : 8.1362939453125); (5.75 : 3.34699625651042); (6.25 : 3.34699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/GiveCampDataContext/Technology/Technology_VolunteerTechnology" />
       <nodes>
         <classShapeMoniker Id="26639d95-c2fe-4225-a41f-bbab544826c5" />
@@ -71,7 +71,7 @@
         <classShapeMoniker Id="c5161060-812e-4762-a82e-0f4c1586e516" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(5.5 : 6.5); (5.875 : 6.125); (5.875 : 1.34699625651042); (6.25 : 1.34699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <associationConnector edgePoints="[(5.5 : 6.5); (5.69107443490112 : 6.30892556509888 : JumpStart); (5.80892556509888 : 6.19107443490112 : JumpEnd); (5.875 : 6.125); (5.875 : 1.34699625651042); (6.25 : 1.34699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/GiveCampDataContext/JobRole/JobRole_VolunteerJobRole" />
       <nodes>
         <classShapeMoniker Id="1a0da5f4-ac61-49a2-bc35-32a84f41c0b6" />

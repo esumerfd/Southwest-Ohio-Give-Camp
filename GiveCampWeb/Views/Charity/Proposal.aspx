@@ -16,7 +16,7 @@
 				<h2>Charity Resources</h2>
 				<ul>
 					<li><a href="http://www.givecamp.org" target="_blank">GiveCamp Main Site</a></li>
-					<li><%=Html.ActionLink("Submit your proposal On-Line","SignUp") %></li>
+					<%--<li><%=Html.ActionLink("Submit your proposal On-Line","SignUp") %></li>--%>
                     <li id="CharityFAQ"><a href="<%=Url.Action("FAQs","Home",new {id="Charities"}) %>">Charities FAQ</a></li>
 				</ul>
 			</li>
@@ -27,8 +27,8 @@
 	<h1 class="pagetitle">Charity Proposal</h1>
 	<div class="post">
 		<h2 class="title">Charity Proposal Form</h2>
-		<!--<p>We are not yet accepting Proposals.  Thank You.</p>-->
-		<p>Please fill out this form to give us an idea of the work you are looking
+		<p>Charity Proposal are no longer being Accepted.  Thank You.</p>
+		<%--<p>Please fill out this form to give us an idea of the work you are looking
 		to have accomplished.  Please keep in mind this work should be scoped so that
 		it can be completed over the span of a weekend.</p>
 		
@@ -100,7 +100,7 @@
                         <%= Html.ValidationMessage("WorkRequested")%>
                     </div>
                 </div>
-            </fieldset>
+            </fieldset>--%>
            <%-- <fieldset>
                 <legend>Existing Technologies [if work is an enhancement to existing application]</legend>
                 <div class="rowwrap">
@@ -167,12 +167,12 @@
             </fieldset>--%>
                 
 
-            <div class="submit">
+          <%--  <div class="submit">
                 <input type="submit" value="Submit Proposal" />
             </div>
 
         <% } %>
 		</div>
-		<p class="meta"></p>
+		<p class="meta"></p>--%>
     </div>
 </asp:Content>

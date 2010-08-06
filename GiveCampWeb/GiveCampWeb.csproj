@@ -101,6 +101,7 @@
       <DependentUpon>GiveCamp.dbml</DependentUpon>
     </Compile>
     <Compile Include="Models\LookupRepository.cs" />
+    <Compile Include="Models\VolunteerExtension.cs" />
     <Compile Include="Models\VolunteerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebConfigMembershipProvider.cs" />
@@ -115,6 +116,7 @@
     <Content Include="Content\Images\SponsorLogos\LogoGrapeCity.png" />
     <Content Include="Content\Images\SponsorLogos\LogoLogicNP.jpg" />
     <Content Include="Content\Images\SponsorLogos\LogoOReilly.gif" />
+    <Content Include="Content\Images\SponsorLogos\LogoPTIPerpetual.jpg" />
     <Content Include="Content\Images\SwOGiveCamp_thumb.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="GeneralError.htm" />
@@ -125,6 +127,7 @@
     <Content Include="Views\Account\Register.aspx" />
     <Content Include="Views\Charity\Details.aspx" />
     <Content Include="Views\Charity\Review.aspx" />
+    <Content Include="Views\Charity\SignUp.aspx" />
     <Content Include="Views\Home\Directions.aspx" />
     <Content Include="Views\Shared\LogOnUserControl.ascx" />
     <Content Include="Views\Volunteer\Details.aspx" />

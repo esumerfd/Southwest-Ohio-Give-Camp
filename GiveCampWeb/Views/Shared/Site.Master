@@ -20,16 +20,7 @@
 		<h1>Southwest Ohio GiveCamp</h1>
 		<p>geeks giving back</p>
 	</div>
-	<!--
-	<div id="search">
-		<form method="get" action="">
-			<fieldset>
-			<input id="s" type="text" name="s" value="" />
-			<input id="x" type="submit" value="Search" />
-			</fieldset>
-		</form>
-	</div>
-	-->
+	<div id="Skyline" style="float:right;"></div>
 </div>
 <!-- end header -->
 <!-- start menu -->

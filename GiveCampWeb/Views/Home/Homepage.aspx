@@ -21,12 +21,12 @@ Southwest Ohio Give Camp
 		</div>
 		
 		<div class="post">
-			<h2 class="title">Looking for Charities and Volunteers</h2>
+			<h2 class="title">Looking for Volunteers</h2>
 			<div class="entry">
-				<p>We are currently accepting applications for charities to 
+				<%--<p>We are currently accepting applications for charities to 
 				submit work proposals through our website.  Please see the
 				Charity section of this web site to submit your proposal.
-				</p>
+				</p>--%>
                 <p> We currently have <%=GiveCampWeb.Models.CharityRepository.GetCharitySignupTotal().ToString()%> Charities and <%=GiveCampWeb.Models.VolunteerRepository.GetVolunteerCount().ToString()%> Volunteers Signed up through our on-line sign up pages.</p>
 				<p>
 				If you are a developer/designer/project manager looking to make

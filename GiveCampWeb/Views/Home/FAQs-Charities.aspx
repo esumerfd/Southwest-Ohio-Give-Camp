@@ -152,7 +152,7 @@
              <div class="faq">
                 <a class="question">When will I know if my proposal has been selected?</a>
                 <div class="answer">
-                	<p>You notified by email whether or not your initial submission has been selected around July 20th. You will be notified whether or not your project has been selected around August 31st.</p>
+                	<p>The initial selection will be completed by July 22. These charities will be asked to complete a more detailed requirements document with the help of a volunteer Business Analyst. Final selections will be made by Sept 1.</p>
                 </div>
             </div>
 
