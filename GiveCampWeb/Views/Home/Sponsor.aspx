@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-Sponsor the Southwest Ohio Give Camp
-</asp:Content>
+Sponsor the Southwest Ohio Give Camp</asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="HeadScriptRegion" runat="server">
     <script language="javascript" type="text/javascript">
         $(document).ready(function() {
@@ -10,7 +9,7 @@ Sponsor the Southwest Ohio Give Camp
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-		<h1 class="pagetitle">Sponsor Our Give Camp</h1>
+        <h1 class="pagetitle">Sponsor Our Give Camp</h1>
 		<div class="post">
 			<h2 class="title">You can help!</h2>
 			
@@ -41,7 +40,8 @@ Sponsor the Southwest Ohio Give Camp
 
 	<td>
           <a href="http://www.DiscountASP.Net" target="_blank">
-            <img src="../../Content/Images/SponsorLogos/dasplogo_tagline.jpg" alt="DiscountASP.Net" border="0" height="50%" width="50%" />
+            <img src="../../Content/Images/SponsorLogos/dasplogo_tagline.jpg" 
+              alt="DiscountASP.Net" border="0" width="50%" />
           </a>
         </td>
 
@@ -54,7 +54,8 @@ Sponsor the Southwest Ohio Give Camp
         <tr>
 	<td>
           <a href="http://oreilly.com" target="_blank">
-            <img src="../../Content/Images/SponsorLogos/LogoOReilly.gif" alt="O'Reilly" border="0" height="50%" width="50%"/>
+            <img src="../../Content/Images/SponsorLogos/LogoOReilly.gif" alt="O'Reilly" 
+              border="0" width="50%"/>
           </a>
         </td>
 
@@ -75,7 +76,7 @@ Sponsor the Southwest Ohio Give Camp
 		
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="SideBar" runat="server">
-		<ul>
+        <ul>
 			<li>
 				<h2>Sponsor Resources</h2>
 				<ul>

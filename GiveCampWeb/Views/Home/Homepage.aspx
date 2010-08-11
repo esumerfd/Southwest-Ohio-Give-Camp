@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
+<%@ Import Namespace="GiveCampWeb.Helpers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
 Southwest Ohio Give Camp
 </asp:Content>
@@ -59,10 +60,10 @@ Southwest Ohio Give Camp
       </ul>
     </li>
     <li>
-      <!-- h2 class="title">Other Give Camps:</h2>
-      <ul>
-       <li><a href="http://www.clevelandgivecamp.org/" target="_blank">Cleveland Give Camp, July 16</a></li>
-      </ul>
+       <h2 class="title">Our Sponsors</h2>
+     <div>
+         <%= Html.AdBlock("","","") %>
+     </div>
     </li>
-    </ul -->
+    </ul 
 </asp:Content>

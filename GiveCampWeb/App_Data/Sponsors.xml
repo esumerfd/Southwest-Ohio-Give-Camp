@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sponsors>
+  <Sponsor>
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/dasplogo_tagline.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.DiscountASP.Net
+    </NavigateUrl>
+    <AlternateText>
+      DiscountASP.Net
+    </AlternateText>
+  </Sponsor>
+</Sponsors>
