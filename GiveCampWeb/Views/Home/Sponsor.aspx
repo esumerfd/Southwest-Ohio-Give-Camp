@@ -36,36 +36,42 @@ Sponsor the Southwest Ohio Give Camp</asp:Content>
   <div class="entry">
     
     <table>
-      <tr>
-
-	<td>
-          <a href="http://www.DiscountASP.Net" target="_blank">
+        <tr>
+	        <td >
+          <a style="margin:20px;" href="http://www.DiscountASP.Net" target="_blank">
             <img src="../../Content/Images/SponsorLogos/dasplogo_tagline.jpg" 
-              alt="DiscountASP.Net" border="0" width="50%" />
+              alt="DiscountASP.Net" border="0" width="200px"/>
           </a>
         </td>
 
 	<td>
-          <a href="http://www.grapecity.com" target="_blank">
-            <img src="../../Content/Images/SponsorLogos/LogoGrapeCity.png" alt="Grape City" border="0"/>
+          <a style="margin:20px;" href="http://www.grapecity.com" target="_blank">
+            <img src="../../Content/Images/SponsorLogos/LogoGrapeCity.png" alt="Grape City" border="0" width="200px"/>
           </a>
         </td>
         </tr>
         <tr>
 	<td>
-          <a href="http://oreilly.com" target="_blank">
-            <img src="../../Content/Images/SponsorLogos/LogoOReilly.gif" alt="O'Reilly" 
-              border="0" width="50%"/>
+          <a style="margin:20px;" href="http://oreilly.com" target="_blank">
+            <img style="margin:20pxwidth:20px;" src="../../Content/Images/SponsorLogos/LogoOReilly.gif" alt="O'Reilly" 
+              border="0" width="200px"  />
           </a>
         </td>
 
 	<td>
-          <a href="http://www.ssware.com" target="_blank">
-            <img src="../../Content/Images/SponsorLogos/LogoLogicNP.jpg" alt="LogicNP Software" border="0"/>
+          <a style="margin:20px;" href="http://www.ssware.com" target="_blank">
+            <img src="../../Content/Images/SponsorLogos/LogoLogicNP.jpg" alt="LogicNP Software" border="0" width="200px" />
           </a>
         </td>
-
-   </tr>
+        <tr>
+        <td>
+          <a style="margin:20px;" href="http://www.telerik.com" target="_blank">
+            <img src="../../Content/Images/SponsorLogos/telerikLogo-web-174x69px.jpg" alt="Telerik" border="0" width="200px"/>
+          </a>
+        </td>
+        <td></td>
+    </tr>
+    </tr>
     </table>
     
     

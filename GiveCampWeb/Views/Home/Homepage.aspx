@@ -59,11 +59,11 @@ Southwest Ohio Give Camp
         <li><a href="http://www.linkedin.com/groups?home=&gid=2990923&trk=anet_ug_hm">LinkedIn</a></li>
       </ul>
     </li>
-    <li>
+  <%--  <li>
        <h2 class="title">Our Sponsors</h2>
      <div>
          <%= Html.AdBlock("","","") %>
      </div>
-    </li>
+    </li>--%>
     </ul 
 </asp:Content>
