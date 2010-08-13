@@ -8,10 +8,9 @@
     <file relUrl="Content/default.css" publishTime="06/02/2010 22:38:03" />
     <file relUrl="Content/Images/img14.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Views/Account/LogOn.aspx" publishTime="08/06/2010 00:15:28" />
-    <file relUrl="Views/Volunteer/SignUp.aspx" publishTime="07/17/2010 01:00:00" />
-    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="05/30/2010 22:42:31" />
+    <file relUrl="Content/Images/SponsorLogos/ICCLogo.png" publishTime="05/30/2010 22:42:30" />
     <file relUrl="bin/System.Web.Mvc.dll" publishTime="02/17/2010 07:24:14" />
-    <file relUrl="Web.config" publishTime="07/21/2010 22:29:18" />
+    <file relUrl="Web.config" publishTime="08/12/2010 19:29:43" />
     <file relUrl="Content/Images/SponsorLogos/microsoft.jpg" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Content/Scripts/jquery-1.3.2-vsdoc2.js" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Content/Images/SponsorLogos/LogoOReilly.gif" publishTime="07/14/2010 18:42:21" />
@@ -19,27 +18,28 @@
     <file relUrl="Content/Images/img08.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Content/Images/SponsorLogos/LogoLogicNP.jpg" publishTime="07/14/2010 18:42:21" />
     <file relUrl="Global.asax" publishTime="05/30/2010 22:42:30" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="05/30/2010 22:42:31" />
     <file relUrl="Content/Images/img01.jpg" publishTime="05/30/2010 22:42:30" />
+    <file relUrl="Scripts/MicrosoftMvcValidation.debug.js" publishTime="05/30/2010 22:42:31" />
     <file relUrl="Content/Images/img13.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Content/Images/img10.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="bin/System.Web.Mvc.xml" publishTime="02/17/2010 07:22:24" />
     <file relUrl="App_Data/GIVECAMP_log.ldf" publishTime="07/21/2010 22:29:14" />
     <file relUrl="Content/Images/img09.gif" publishTime="05/30/2010 22:42:30" />
-    <file relUrl="Content/Images/SponsorLogos/ICCLogo.png" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Content/Scripts/jquery.validate.js" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="05/30/2010 22:42:32" />
     <file relUrl="Views/Shared/LogOnUserControl.ascx" publishTime="06/05/2010 02:20:06" />
     <file relUrl="Views/Home/FAQs-Charities.aspx" publishTime="07/21/2010 19:56:28" />
+    <file relUrl="Content/Images/SponsorLogos/LogoPTIPerpetual.jpg" publishTime="07/21/2010 19:45:01" />
     <file relUrl="Content/Images/img07.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Scripts/jquery-1.4.1.js" publishTime="05/30/2010 22:42:31" />
     <file relUrl="Views/Charity/Proposal.aspx" publishTime="07/21/2010 19:51:18" />
-    <file relUrl="Views/Volunteer/Landing.aspx" publishTime="07/21/2010 19:08:23" />
-    <file relUrl="Views/Home/Homepage.aspx" publishTime="07/21/2010 19:50:52" />
-    <file relUrl="Views/Home/Sponsor.aspx" publishTime="07/14/2010 18:48:23" />
+    <file relUrl="Views/Home/Homepage.aspx" publishTime="08/12/2010 19:13:03" />
+    <file relUrl="Views/Home/Sponsor.aspx" publishTime="08/12/2010 19:29:19" />
     <file relUrl="Content/Scripts/jquery.faqs.js" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Content/Images/SponsorLogos/LogoGrapeCity.png" publishTime="07/14/2010 18:42:21" />
+    <file relUrl="Scripts/jquery.validate.js" publishTime="05/30/2010 22:42:32" />
     <file relUrl="Views/Home/FAQs.aspx" publishTime="05/30/2010 22:42:32" />
-    <file relUrl="Views/Charity/Review.aspx" publishTime="06/09/2010 01:45:17" />
     <file relUrl="bin/Content/Documents/GiveCamp Slick Sheet.pdf" publishTime="05/31/2010 17:15:18" />
     <file relUrl="Views/Volunteer/Details.aspx" publishTime="06/26/2010 16:50:48" />
     <file relUrl="Content/Images/img11.gif" publishTime="05/30/2010 22:42:30" />
@@ -54,7 +54,7 @@
     <file relUrl="Content/Images/img04.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Content/Images/rss.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Views/Home/Directions.aspx" publishTime="05/30/2010 22:42:32" />
-    <file relUrl="Views/Shared/Site.Master" publishTime="07/21/2010 22:53:08" />
+    <file relUrl="Views/Shared/Site.Master" publishTime="08/10/2010 21:08:01" />
     <file relUrl="Scripts/jquery.validate.min.js" publishTime="05/30/2010 22:42:32" />
     <file relUrl="Content/Images/img02.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Views/Charity/Landing.aspx" publishTime="07/21/2010 19:53:50" />
@@ -67,24 +67,26 @@
     <file relUrl="favicon.ico" publishTime="05/30/2010 22:42:32" />
     <file relUrl="Views/Web.config" publishTime="05/30/2010 22:42:32" />
     <file relUrl="Content/Images/img06.gif" publishTime="05/30/2010 22:42:30" />
-    <file relUrl="Scripts/MicrosoftMvcValidation.js" publishTime="05/30/2010 22:42:31" />
+    <file relUrl="Views/Volunteer/SignUp.aspx" publishTime="07/17/2010 01:00:00" />
     <file relUrl="Views/Account/Register.aspx" publishTime="06/05/2010 02:25:29" />
     <file relUrl="GeneralError.htm" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Content/Images/img03.gif" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Views/Home/FAQs-Developers.aspx" publishTime="05/30/2010 22:42:32" />
-    <file relUrl="Content/Images/SponsorLogos/LogoPTIPerpetual.jpg" publishTime="07/21/2010 19:45:01" />
+    <file relUrl="Views/Charity/Review.aspx" publishTime="06/09/2010 01:45:17" />
+    <file relUrl="Content/Images/SponsorLogos/telerikLogo-web-174x69px.jpg" publishTime="08/10/2010 20:44:25" />
     <file relUrl="Views/Volunteer/Review.aspx" publishTime="07/21/2010 22:28:46" />
     <file relUrl="Views/Home/FAQs-Sponsors.aspx" publishTime="05/30/2010 22:42:32" />
-    <file relUrl="bin/GiveCampWeb.dll" publishTime="07/21/2010 22:24:19" />
-    <file relUrl="bin/GiveCampWeb.pdb" publishTime="07/21/2010 22:24:19" />
+    <file relUrl="bin/GiveCampWeb.dll" publishTime="08/12/2010 19:29:28" />
+    <file relUrl="bin/GiveCampWeb.pdb" publishTime="08/12/2010 19:29:28" />
     <file relUrl="Views/Charity/Details.aspx" publishTime="06/09/2010 01:22:47" />
     <file relUrl="Scripts/MicrosoftAjax.debug.js" publishTime="05/30/2010 22:42:31" />
     <file relUrl="Scripts/MicrosoftMvcAjax.debug.js" publishTime="05/30/2010 22:42:31" />
     <file relUrl="Content/Images/SponsorLogos/QuickSolutions.jpg" publishTime="05/30/2010 22:42:30" />
     <file relUrl="Views/Account/ChangePasswordSuccess.aspx" publishTime="06/05/2010 02:03:51" />
     <file relUrl="Views/Home/FAQs-EventStaff.aspx" publishTime="05/30/2010 22:42:32" />
-    <file relUrl="Scripts/jquery.validate.js" publishTime="05/30/2010 22:42:32" />
+    <file relUrl="Views/Volunteer/Landing.aspx" publishTime="07/21/2010 19:08:23" />
     <file relUrl="Content/Images/img12.gif" publishTime="05/30/2010 22:42:30" />
+    <file relUrl="App_Data/Sponsors.xml" publishTime="08/11/2010 00:02:34" />
     <file relUrl="Scripts/jquery-1.4.1.min-vsdoc.js" publishTime="05/30/2010 22:42:32" />
   </publishProfile>
 </publishData>
