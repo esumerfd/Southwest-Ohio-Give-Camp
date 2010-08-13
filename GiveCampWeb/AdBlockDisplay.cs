@@ -5,18 +5,32 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web;
+using System.Text;
+
 namespace GiveCampWeb.Helpers
 {
     public static class AdBlockHelper
     {
         public static MvcHtmlString AdBlock(this HtmlHelper htmlHelper, string linkText, string controllerName, string actionName)
         {
-            //TagBuilder link = new TagBuilder("img");
-            //link.MergeAttribute("src", "../../Content/Images/SponsorLogos/LogoGrapeCity.png");
-            //link.MergeAttribute("alt", "DiscountASP.Net");
-            //link.MergeAttribute("width", "230px");
-            //link.MergeAttribute("border", "0");
-            return MvcHtmlString.Create(string.Empty); //return MvcHtmlString.Create(link.ToString());
+            Models.SponsorRepository SR = new Models.SponsorRepository();
+            StringBuilder strbld = new StringBuilder();
+
+            foreach (var sponsor in SR.getSponsors())
+            {
+                TagBuilder linkouter = new TagBuilder("a");
+                TagBuilder link = new TagBuilder("img");
+                link.MergeAttribute("src", sponsor.ImageUrl);
+                link.MergeAttribute("alt", sponsor.AlternateText);
+                link.MergeAttribute("style", "margin-bottom:10px;");
+               
+                link.MergeAttribute("width", "200px");
+                linkouter.MergeAttribute("href", sponsor.NavigateURL);
+                linkouter.InnerHtml = link.ToString();
+                strbld.Append(linkouter.ToString());
+            }
+
+            return MvcHtmlString.Create(strbld.ToString()); //return MvcHtmlString.Create(link.ToString());
          
         }
     }

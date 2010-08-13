@@ -102,6 +102,7 @@
       <DependentUpon>GiveCamp.dbml</DependentUpon>
     </Compile>
     <Compile Include="Models\LookupRepository.cs" />
+    <Compile Include="Models\Sponsor.cs" />
     <Compile Include="Models\SponsorRepository.cs" />
     <Compile Include="Models\VolunteerExtension.cs" />
     <Compile Include="Models\VolunteerRepository.cs" />

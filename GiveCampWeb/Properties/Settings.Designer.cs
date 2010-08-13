@@ -25,7 +25,7 @@ namespace GiveCampWeb.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("|DataDirectory|\\Sponsors.xml")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Sponsors.xml")]
         public string SponsorsFileLocation {
             get {
                 return ((string)(this["SponsorsFileLocation"]));

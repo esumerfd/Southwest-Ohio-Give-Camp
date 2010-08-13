@@ -25,7 +25,7 @@ Sponsor the Southwest Ohio Give Camp</asp:Content>
 				product licenses and food!</p><br /><br />
 				If you would like to sponsor our event, please email details to:<br /><br />
 				
-				<a href="mailto:info@southwestohiogivecamp.org">info@southwestohiogivecamp.org</a></p>
+				<p><a href="mailto:info@southwestohiogivecamp.org">info@southwestohiogivecamp.org</a></p>
 			</div>
 			<p class="meta"></p>
 		</div>

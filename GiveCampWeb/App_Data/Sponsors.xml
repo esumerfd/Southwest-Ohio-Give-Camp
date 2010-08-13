@@ -11,4 +11,48 @@
       DiscountASP.Net
     </AlternateText>
   </Sponsor>
+  <Sponsor>
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/LogoGrapeCity.png
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.grapecity.com
+    </NavigateUrl>
+    <AlternateText>
+      Grape City
+    </AlternateText>
+  </Sponsor>
+  <Sponsor>
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/LogoOReilly.gif
+    </ImageUrl>
+    <NavigateUrl>
+      http://oreilly.com
+    </NavigateUrl>
+    <AlternateText>
+      O'Reilly
+    </AlternateText>
+  </Sponsor>
+  <Sponsor>
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/LogoLogicNP.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.ssware.com
+    </NavigateUrl>
+    <AlternateText>
+      LogicNP Software
+    </AlternateText>
+  </Sponsor>
+  <Sponsor>
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/telerikLogo-web-174x69px.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.telerik.com
+    </NavigateUrl>
+    <AlternateText>
+      Telerik Controls
+    </AlternateText>
+  </Sponsor>
 </Sponsors>

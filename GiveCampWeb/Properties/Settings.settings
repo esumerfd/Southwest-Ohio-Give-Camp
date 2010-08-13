@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="SponsorsFileLocation" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">|DataDirectory|\Sponsors.xml</Value>
+      <Value Profile="(Default)">Sponsors.xml</Value>
     </Setting>
   </Settings>
 </SettingsFile>
