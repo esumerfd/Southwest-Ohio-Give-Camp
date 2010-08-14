@@ -65,5 +65,5 @@ Southwest Ohio Give Camp
          <%= Html.AdBlock("","","") %>
      </div>
     </li>
-    </ul 
+    </ul >
 </asp:Content>
