@@ -55,4 +55,15 @@
       Telerik Controls
     </AlternateText>
   </Sponsor>
+  <Sponsor>
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/New_WROX_Logo_color_rev.gif
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.WROX.com
+    </NavigateUrl>
+    <AlternateText>
+      Wrox Publishing
+    </AlternateText>
+  </Sponsor>
 </Sponsors>

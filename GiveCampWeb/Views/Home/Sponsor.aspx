@@ -69,7 +69,9 @@ Sponsor the Southwest Ohio Give Camp</asp:Content>
             <img src="../../Content/Images/SponsorLogos/telerikLogo-web-174x69px.jpg" alt="Telerik" border="0" width="200px"/>
           </a>
         </td>
-        <td></td>
+        <td> <a style="margin:20px;" href="http://www.wrox.com" target="_blank">
+            <img src=" ../../Content/Images/SponsorLogos/New_WROX_Logo_color_rev.gif" alt="Wrox Publishing" border="0" width="200px"/>
+          </a></td>
     </tr>
     </tr>
     </table>
