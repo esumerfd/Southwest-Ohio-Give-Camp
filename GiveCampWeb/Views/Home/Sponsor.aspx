@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
+<%@ Import Namespace="GiveCampWeb.Helpers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
 Sponsor the Southwest Ohio Give Camp</asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="HeadScriptRegion" runat="server">
@@ -32,10 +33,12 @@ Sponsor the Southwest Ohio Give Camp</asp:Content>
 		
 <div class="post">
   <h2 class="title">Our Current Sponsors</h2>
-  
+    <div>
+         <%= Html.AdBlock("AllPage") %>
+    </div>
   <div class="entry">
     
-    <table>
+    <%--<table>
         <tr>
 	        <td>
                 <a style="margin:20px;" href="http://www.paycor.com/" target="_blank">
@@ -116,12 +119,12 @@ Sponsor the Southwest Ohio Give Camp</asp:Content>
                 </a>
             </td>
             <td> 
-              <%--  <a style="margin:20px;" href="" target="_blank">
+                <a style="margin:20px;" href="" target="_blank">
                     <img src="../../Content/Images/SponsorLogos/" alt="" border="0" width="200px"/>
-                </a>--%>
+                </a>
             </td>
         </tr>
-    </table>
+    </table>--%>
     
     
   </div>

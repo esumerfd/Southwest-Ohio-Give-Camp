@@ -8,6 +8,7 @@ Southwest Ohio Give Camp
         $(document).ready(function() {
             $("#navHome").addClass("current_page_item");
         });
+       
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -62,7 +63,7 @@ Southwest Ohio Give Camp
     <li>
        <h2 class="title">Our Sponsors</h2>
      <div>
-         <%= Html.AdBlock("","","") %>
+         <%= Html.AdBlock("Cash") %>
      </div>
     </li>
     </ul >

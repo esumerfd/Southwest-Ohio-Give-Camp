@@ -1,6 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Sponsors>
-  <Sponsor>
+  <Sponsor Type="Cash">
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/logo_beyondpod.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.beyondpod.mobi
+    </NavigateUrl>
+    <AlternateText>
+      BeyondPod
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="Cash">
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/sponsor_max_train.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.maxtrain.com
+    </NavigateUrl>
+    <AlternateText>
+      Max Technical Training
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="Cash">
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/RedGatelogo.gif
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.red-gate.com
+    </NavigateUrl>
+    <AlternateText>
+      Red Gate Software
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="Cash">
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/DevExpresslogo.gif
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.devexpress.com/
+    </NavigateUrl>
+    <AlternateText>
+      DevExpress
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="Cash">
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/gs_logo.gif
+    </ImageUrl>
+    <NavigateUrl>
+      https://www.givingstation.com/
+    </NavigateUrl>
+    <AlternateText>
+      Giving Station
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="Cash">
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/sponsor_microsoft.png
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.microsoft.com
+    </NavigateUrl>
+    <AlternateText>
+      Microsoft
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="Cash">
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/PaycorLogo.gif
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.paycor.com/
+    </NavigateUrl>
+    <AlternateText>
+      Paycor
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="NonCash">
     <ImageUrl>
       ../../Content/Images/SponsorLogos/dasplogo_tagline.jpg
     </ImageUrl>
@@ -11,7 +88,7 @@
       DiscountASP.Net
     </AlternateText>
   </Sponsor>
-  <Sponsor>
+  <Sponsor Type="NonCash">
     <ImageUrl>
       ../../Content/Images/SponsorLogos/LogoGrapeCity.png
     </ImageUrl>
@@ -22,7 +99,7 @@
       Grape City
     </AlternateText>
   </Sponsor>
-  <Sponsor>
+  <Sponsor Type="NonCash">
     <ImageUrl>
       ../../Content/Images/SponsorLogos/LogoOReilly.gif
     </ImageUrl>
@@ -33,7 +110,7 @@
       O'Reilly
     </AlternateText>
   </Sponsor>
-  <Sponsor>
+  <Sponsor Type="NonCash">
     <ImageUrl>
       ../../Content/Images/SponsorLogos/LogoLogicNP.jpg
     </ImageUrl>
@@ -44,7 +121,7 @@
       LogicNP Software
     </AlternateText>
   </Sponsor>
-  <Sponsor>
+  <Sponsor Type="Cash">
     <ImageUrl>
       ../../Content/Images/SponsorLogos/telerikLogo-web-174x69px.jpg
     </ImageUrl>
@@ -55,7 +132,7 @@
       Telerik Controls
     </AlternateText>
   </Sponsor>
-  <Sponsor>
+  <Sponsor Type="NonCash">
     <ImageUrl>
       ../../Content/Images/SponsorLogos/New_WROX_Logo_color_rev.gif
     </ImageUrl>
@@ -64,6 +141,17 @@
     </NavigateUrl>
     <AlternateText>
       Wrox Publishing
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="NonCash">
+    <ImageUrl>
+      ../../Content/Images/SponsorLogos/LogoPTIPerpetual.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.perptech.com/
+    </NavigateUrl>
+    <AlternateText>
+      Perpetual Technologies
     </AlternateText>
   </Sponsor>
 </Sponsors>
