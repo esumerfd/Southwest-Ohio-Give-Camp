@@ -35,7 +35,7 @@ namespace GiveCampWeb.Helpers
             strbld.AppendLine(script.ToString());
             TagBuilder linkouter = new TagBuilder("div");
             linkouter.MergeAttribute("id", "slideshow1");
-            linkouter.MergeAttribute("class", "pics");
+            linkouter.MergeAttribute("class", "Sponsors");
 
             foreach (var sponsor in SR.getCashSponsors())
             {
@@ -65,7 +65,7 @@ namespace GiveCampWeb.Helpers
             strbld.AppendLine(script.ToString());
             TagBuilder linkouter = new TagBuilder("div");
             linkouter.MergeAttribute("id", "slideshow1");
-            linkouter.MergeAttribute("class", "pics");
+            linkouter.MergeAttribute("class", "Sponsors");
 
             foreach (var sponsor in SR.getNonCashSponsors())
             {
@@ -95,7 +95,7 @@ namespace GiveCampWeb.Helpers
             strbld.AppendLine(script.ToString());
             TagBuilder linkouter = new TagBuilder("div");
             linkouter.MergeAttribute("id", "slideshow1");
-            linkouter.MergeAttribute("class", "pics");
+            linkouter.MergeAttribute("class", "Sponsors");
 
             foreach (var sponsor in SR.getSponsors())
             {
@@ -118,7 +118,7 @@ namespace GiveCampWeb.Helpers
         {
             Models.SponsorRepository SR = new Models.SponsorRepository();
             StringBuilder strbld = new StringBuilder();
-            strbld.AppendLine("<table>");
+            strbld.AppendLine("<table class=\"Sponsors\">");
             int i = 0;
             foreach (var sponsor in SR.getSponsors())
             {
