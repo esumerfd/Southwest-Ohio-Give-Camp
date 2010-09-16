@@ -22,7 +22,7 @@ namespace GiveCampWeb.Models
 	using System;
 	
 	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="SQL2008_731334_givecamp")]
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="GIVECAMP")]
 	public partial class GiveCampDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -1875,6 +1875,8 @@ namespace GiveCampWeb.Models
 		
 		private string _Email;
 		
+		private bool _Selected;
+		
 		private EntitySet<CharityRequirementSupportSkill> _CharityRequirementSupportSkills;
 		
 		private EntitySet<CharityRequirementTechnologiesUsed> _CharityRequirementTechnologiesUseds;
@@ -1905,6 +1907,8 @@ namespace GiveCampWeb.Models
     partial void OnCurrentWebURLChanged();
     partial void OnEmailChanging(string value);
     partial void OnEmailChanged();
+    partial void OnSelectedChanging(bool value);
+    partial void OnSelectedChanged();
     #endregion
 		
 		public CharityRequirement()
@@ -2114,7 +2118,7 @@ namespace GiveCampWeb.Models
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Email", DbType="VarChar(256)")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Email", DbType="VarChar(256) NOT NULL", CanBeNull=false)]
 		public string Email
 		{
 			get
@@ -2130,6 +2134,26 @@ namespace GiveCampWeb.Models
 					this._Email = value;
 					this.SendPropertyChanged("Email");
 					this.OnEmailChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Selected", DbType="Bit")]
+		public bool Selected
+		{
+			get
+			{
+				return this._Selected;
+			}
+			set
+			{
+				if ((this._Selected != value))
+				{
+					this.OnSelectedChanging(value);
+					this.SendPropertyChanging();
+					this._Selected = value;
+					this.SendPropertyChanged("Selected");
+					this.OnSelectedChanged();
 				}
 			}
 		}

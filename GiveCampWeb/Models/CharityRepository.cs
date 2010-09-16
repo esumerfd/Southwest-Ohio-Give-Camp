@@ -24,6 +24,13 @@ namespace GiveCampWeb.Models
                    where cr.CharityRequirementId == CharityRequirementID
                    select cr).First();
         }
+        public IQueryable<CharityRequirement> GetFinalCharities()
+        {
+            return from charity in _datacontext.CharityRequirements
+                   where charity.Selected
+                   select charity;
+        }
+      
         public void Register(CharityRequirement charity)
         {
             Register(charity, new List<Technology>(), new List<Technology>());

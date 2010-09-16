@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SQL2008_731334_givecamp" Class="GiveCampDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GIVECAMP" Class="GiveCampDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\GIVECAMP.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GIVECAMPConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.VolunteerTechnologies" Member="VolunteerTechnologies">
     <Type Name="VolunteerTechnology">
@@ -94,7 +94,8 @@
       <Column Name="OtherSupportSkills" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
       <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="CurrentWebURL" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
-      <Column Name="Email" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Selected" Type="System.Boolean" DbType="Bit" CanBeNull="false" />
       <Association Name="CharityRequirement_CharityRequirementSupportSkill" Member="CharityRequirementSupportSkills" ThisKey="CharityRequirementId" OtherKey="CharityRequirementId" Type="CharityRequirementSupportSkill" />
       <Association Name="CharityRequirement_CharityRequirementTechnologiesUsed" Member="CharityRequirementTechnologiesUseds" ThisKey="CharityRequirementId" OtherKey="CharityRequirementId" Type="CharityRequirementTechnologiesUsed" />
     </Type>

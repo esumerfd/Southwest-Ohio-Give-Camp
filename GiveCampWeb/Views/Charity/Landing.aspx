@@ -45,6 +45,7 @@ For Charities
 					<%--<li><%=Html.ActionLink("Submit your proposal On-Line","SignUp") %></li>--%>
                     <li id="CharityFAQ"><a href="<%=Url.Action("FAQs","Home",new {id="Charities"}) %>">Charities FAQ</a></li>
                     <%= Html.AuthListItem("Review Charities","Charity","Review")%>
+                    <%= Html.AuthListItem("Review Finalists","Charity","Final")%>
                     <li><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Content/Documents/GiveCamp Slick Sheet.pdf">Charity Instruction Sheet (PDF)</asp:HyperLink></li>
 				</ul>
 			</li>

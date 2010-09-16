@@ -176,7 +176,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\default.css" />
+    <Content Include="Content\default.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Images\givecamp.jpg" />
     <Content Include="Content\Images\img01.jpg" />
     <Content Include="Content\Images\img02.gif" />

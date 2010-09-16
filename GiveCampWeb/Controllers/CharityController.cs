@@ -25,6 +25,12 @@ namespace GiveCampWeb.Controllers
             Models.CharityRepository repo = new CharityRepository();
             return View(repo.GetAllCharities());
         }
+       [Authorize]
+       public ActionResult Final()
+       {
+           Models.CharityRepository repo = new CharityRepository();
+           return View("Review",repo.GetFinalCharities());
+       }
         [Authorize] 
         public ActionResult Details(string id)
         {
