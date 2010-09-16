@@ -22,7 +22,7 @@
       Max Technical Training
     </AlternateText>
   </Sponsor>
-  <!--<Sponsor Type="Cash">
+  <Sponsor Type="Cash">
     <ImageUrl>
       ../../Content/Images/SponsorLogos/RedGatelogo.gif
     </ImageUrl>
@@ -32,7 +32,7 @@
     <AlternateText>
       Red Gate Software
     </AlternateText>
-  </Sponsor>-->
+  </Sponsor>
   <Sponsor Type="Cash">
     <ImageUrl>
       ../../Content/Images/SponsorLogos/DevExpresslogo.gif
@@ -155,3 +155,4 @@
     </AlternateText>
   </Sponsor>
 </Sponsors>
+
