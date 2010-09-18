@@ -119,7 +119,10 @@
     <None Include="App_Data\GIVECAMP_log.ldf">
       <DependentUpon>GIVECAMP.mdf</DependentUpon>
     </None>
-    <Content Include="App_Data\Sponsors.xml" />
+    <Content Include="App_Data\Sponsors.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Images\SponsorLogos\Booz_Allen_logo_black.jpg" />
     <Content Include="Content\Images\SponsorLogos\dasplogo_tagline.jpg" />
     <Content Include="Content\Images\SponsorLogos\DevExpresslogo.gif" />
     <Content Include="Content\Images\SponsorLogos\gs_logo.gif" />
