@@ -54,6 +54,9 @@ namespace GiveCampWeb.Controllers
                     return (RedirectToAction("FAQs","Home"));
             }
         }
-
+        public ActionResult Newsletter01()
+        {
+            return View();
+        }
     }
 }

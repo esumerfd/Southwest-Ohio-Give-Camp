@@ -136,10 +136,17 @@
     <Content Include="Content\Images\SponsorLogos\New_WROX_Logo_color_rev.gif" />
     <Content Include="Content\Images\SponsorLogos\PaycorLogo.gif" />
     <Content Include="Content\Images\SponsorLogos\RedGatelogo.gif" />
+    <Content Include="Content\Images\SponsorLogos\RGLogo_SimpleTools_OnWhite_RGB.jpg" />
     <Content Include="Content\Images\SponsorLogos\sponsor_max_train.jpg" />
     <Content Include="Content\Images\SponsorLogos\sponsor_microsoft.png" />
     <Content Include="Content\Images\SponsorLogos\telerikLogo-web-174x69px.jpg" />
     <Content Include="Content\Images\SwOGiveCamp_thumb.jpg" />
+    <Content Include="Content\Newsletters\image294.png" />
+    <Content Include="Content\Newsletters\image295.png" />
+    <Content Include="Content\Newsletters\image302.png" />
+    <Content Include="Content\Newsletters\image434.png" />
+    <Content Include="Content\Newsletters\image438.png" />
+    <Content Include="Content\Newsletters\image440.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="GeneralError.htm" />
     <Content Include="Global.asax" />
@@ -152,6 +159,7 @@
     <Content Include="Views\Charity\Review.aspx" />
     <Content Include="Views\Charity\SignUp.aspx" />
     <Content Include="Views\Home\Directions.aspx" />
+    <Content Include="Views\Home\Newsletter01.aspx" />
     <Content Include="Views\Shared\LogOnUserControl.ascx" />
     <Content Include="Views\Volunteer\Details.aspx" />
     <Content Include="Views\Volunteer\Review.aspx" />
