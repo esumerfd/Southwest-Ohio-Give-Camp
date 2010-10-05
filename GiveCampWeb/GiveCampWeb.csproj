@@ -158,6 +158,7 @@
     <Content Include="Views\Charity\Details.aspx" />
     <Content Include="Views\Charity\Review.aspx" />
     <Content Include="Views\Charity\SignUp.aspx" />
+    <Content Include="Views\Home\CharityList.aspx" />
     <Content Include="Views\Home\Directions.aspx" />
     <Content Include="Views\Home\Newsletter01.aspx" />
     <Content Include="Views\Shared\LogOnUserControl.ascx" />

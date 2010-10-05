@@ -14,23 +14,32 @@ Southwest Ohio Give Camp
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 		<h1 class="pagetitle">Southwest Ohio GiveCamp 2010</h1>
 		<div class="post">
-			<h2 class="title">Dates Announced!</h2>
+			<h2 class="title">Charities Selected</h2>
 			<div class="entry">
-				<p>This year, Southwest Ohio GiveCamp will take place 22 - 24 of October </p>
+				<p>The final list of charities that we will be helping at the 2010 Southwest Ohio Give Camp have been chosen. Details are available <%: Html.ActionLink("here", "CharityList") %> </p>
+			<div class="entry">
+				<ul>
+				    <li>Elementz Hip Hop Youth Arts Center</li>
+                    <li>John 12:15 Ministries</li>
+                    <li>Postsecondary Education Collaborative</li>
+                    <li>End Slavery Cincinnati</li>
+                    <li>Battle of the Business (Benefiting Special Olympics of Greater Dayton)</li>
+                    <li>Civic Garden Center</li>
+                    <li>Seton Family Center</li>
+                    <li>Working in Neighborhoods</li>
+                    <li>Diabetes Dayton</li>
+                    <li>Hamilton Living Water Ministry</li>
+				</ul>
+			</div>
 				<p>The event is being held at the <%=Html.ActionLink("Miami University Voice of America Learning Center", "Directions")%></p>
 			</div>
 			<p class="meta"></p>
 		</div>
-		
 		<div class="post">
 			<h2 class="title">Looking for Volunteers</h2>
 			<div class="entry">
-				<%--<p>We are currently accepting applications for charities to 
-				submit work proposals through our website.  Please see the
-				Charity section of this web site to submit your proposal.
-				</p>--%>
-                <p> We currently have <%=GiveCampWeb.Models.CharityRepository.GetCharitySignupTotal().ToString()%> Charities and <%=GiveCampWeb.Models.VolunteerRepository.GetVolunteerCount().ToString()%> Volunteers Signed up through our on-line sign up pages.</p>
-				<p>
+                <p> We currently have  <%=GiveCampWeb.Models.VolunteerRepository.GetVolunteerCount().ToString()%> Volunteers Signed up through our on-line sign up pages.</p>
+				<p> 
 				If you are a developer/designer/project manager looking to make
 				a difference and use your skills to assist others, this is the 
 				place to be October 22, 23, 24, 2010!  Please visit the Volunteer 

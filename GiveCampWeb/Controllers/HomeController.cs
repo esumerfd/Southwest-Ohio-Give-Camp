@@ -24,7 +24,10 @@ namespace GiveCampWeb.Controllers
         {
             return View("Sponsor");
         }
-
+        public ActionResult CharityList()
+        {
+            return View("CharityList");
+        }
         public ActionResult Directions()
         {
             return View("Directions");
