@@ -79,6 +79,17 @@
   </Sponsor>
   <Sponsor Type="NonCash">
     <ImageUrl>
+      ../../Content/Images/SponsorLogos/SDS_logo_Company Name.jpg
+    </ImageUrl>
+    <NavigateUrl>
+      http://www.sds-consulting.com/
+    </NavigateUrl>
+    <AlternateText>
+      Strategic Data Systems 
+    </AlternateText>
+  </Sponsor>
+  <Sponsor Type="NonCash">
+    <ImageUrl>
       ../../Content/Images/SponsorLogos/City_BBQ_logo_2c.jpg
     </ImageUrl>
     <NavigateUrl>

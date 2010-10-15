@@ -138,6 +138,8 @@
     <Content Include="Content\Images\SponsorLogos\PaycorLogo.gif" />
     <Content Include="Content\Images\SponsorLogos\RedGatelogo.gif" />
     <Content Include="Content\Images\SponsorLogos\RGLogo_SimpleTools_OnWhite_RGB.jpg" />
+    <Content Include="Content\Images\SponsorLogos\SDS_logo_Company Name.jpg" />
+    <Content Include="Content\Images\SponsorLogos\SDS_logo_Company Name.tif" />
     <Content Include="Content\Images\SponsorLogos\sponsor_max_train.jpg" />
     <Content Include="Content\Images\SponsorLogos\sponsor_microsoft.png" />
     <Content Include="Content\Images\SponsorLogos\telerikLogo-web-174x69px.jpg" />
