@@ -14,6 +14,42 @@ Southwest Ohio Give Camp
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 		<h1 class="pagetitle">Southwest Ohio GiveCamp 2010</h1>
 		<div class="post">
+        <h2 class="title">We are Live!</h2>
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+    new TWTR.Widget({
+        version: 2,
+        type: 'search',
+        search: 'swogc',
+        interval: 6000,
+        title: 'Southwest Ohio Give Camp',
+        subject: 'Geeks Giving Back',
+        width: 350,
+        height: 400,
+        theme: {
+            shell: {
+                background: '#8ec1da',
+                color: '#ffffff'
+            },
+            tweets: {
+                background: '#ffffff',
+                color: '#444444',
+                links: '#1985b5'
+            }
+        },
+        features: {
+            scrollbar: false,
+            loop: true,
+            live: true,
+            hashtags: true,
+            timestamp: true,
+            avatars: true,
+            toptweets: true,
+            behavior: 'default'
+        }
+    }).render().start();
+</script>
+<p>Use tag #SWOGC to include your tweet</p>
 			<h2 class="title">Charities Selected</h2>
 			<div class="entry">
 				<p>The final list of charities that we will be helping at the 2010 Southwest Ohio Give Camp have been chosen. Details are available <%: Html.ActionLink("here", "CharityList") %> </p>
