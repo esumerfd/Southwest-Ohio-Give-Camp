@@ -150,6 +150,12 @@ a:hover {
 	margin: 0 auto;
 	background: #FFFFFF url(images/img07.gif) repeat-y;
 }
+#pageWide {
+	width: 1000px;
+	margin: 0 auto;
+	padding-left:50px;
+	background: #FFFFFF;
+}
 
 /* Content */
 
@@ -158,6 +164,11 @@ a:hover {
 	width: 700px;
 	padding: 11px 11px 0 5px;
 	background: url(images/img09.gif) no-repeat;
+}
+#content_wide {
+	/* float: right; */
+	width: 1000px;
+	padding: 11px 11px 0 5px;
 }
 
 #content a {
@@ -292,4 +303,19 @@ fieldset textarea { width: 300px; }
 label.error { color: Red; font-weight: bold; }
 .Sponsors img {border: none;}
 .Sponsors {height:100px;}
-
+.pages
+{
+    clear:both;
+}
+.Gallerypage 
+{
+    border: 1px solid #669999;
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align:center;
+}
+.Gallerypage:hover
+{
+    background-color: #669999;
+}

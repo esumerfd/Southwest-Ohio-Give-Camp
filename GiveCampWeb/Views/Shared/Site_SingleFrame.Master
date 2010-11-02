@@ -1,9 +1,8 @@
 ﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
+<head id="Head1" runat="server">
     <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
     <link rel="Stylesheet" type="text/css" href="../../Content/default.css" />
     <script src="../../Content/Scripts/jquery-1.3.2.min.js" type="text/javascript" language="javascript"></script>
@@ -41,27 +40,21 @@
 </div>
 <!-- end menu -->
 <!-- start page -->
-<div id="page">
+<div id="pageWide">
 	<!-- start content -->
-	<div id="content">
+	<div id="content_wide">
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
         </asp:ContentPlaceHolder>
 	</div>
 	<!-- end content -->
-	<!-- start sidebar -->
-	<div id="sidebar">
-	    <asp:ContentPlaceHolder ID="SideBar" runat="server">
-	    
-	    </asp:ContentPlaceHolder>	
-	</div>
-	<!-- end sidebar -->
 	<div style="clear: both;">&nbsp;</div>
 </div>
 <!-- end page -->
-<div id="footer">
+<div id="footerWide">
     	<p>&copy;2010 All Rights Reserved.</p>
 </div>
     </form>
 </body>
 </html>
+
